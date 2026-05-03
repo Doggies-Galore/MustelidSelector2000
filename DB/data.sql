@@ -49,56 +49,59 @@ BEGIN
     INSERT INTO Habitats (id, name) VALUES (3, 'Arid Savanna');
     INSERT INTO Habitats (id, name) VALUES (4, 'Arid Steppes');
     INSERT INTO Habitats (id, name) VALUES (5, 'Bamboo Groves');
-    INSERT INTO Habitats (id, name) VALUES (6, 'Boreal Forest');
-    INSERT INTO Habitats (id, name) VALUES (7, 'Broad-leaved');
-    INSERT INTO Habitats (id, name) VALUES (8, 'Cloud Forests');
-    INSERT INTO Habitats (id, name) VALUES (9, 'Coastal Marine');
-    INSERT INTO Habitats (id, name) VALUES (10, 'Coniferous');
-    INSERT INTO Habitats (id, name) VALUES (11, 'Deciduous Woodlands');
-    INSERT INTO Habitats (id, name) VALUES (12, 'Deciduous Woods');
-    INSERT INTO Habitats (id, name) VALUES (13, 'Domesticated');
-    INSERT INTO Habitats (id, name) VALUES (14, 'Dry Scrub');
-    INSERT INTO Habitats (id, name) VALUES (15, 'Farmland');
-    INSERT INTO Habitats (id, name) VALUES (16, 'Forest Streams');
-    INSERT INTO Habitats (id, name) VALUES (17, 'Forests');
-    INSERT INTO Habitats (id, name) VALUES (18, 'Freshwater Rivers');
-    INSERT INTO Habitats (id, name) VALUES (19, 'Grassland');
-    INSERT INTO Habitats (id, name) VALUES (20, 'Grasslands');
-    INSERT INTO Habitats (id, name) VALUES (21, 'Hedgerows');
-    INSERT INTO Habitats (id, name) VALUES (22, 'Hilly Mixed Forests');
-    INSERT INTO Habitats (id, name) VALUES (23, 'Humid Lowland Rainforests');
-    INSERT INTO Habitats (id, name) VALUES (24, 'Lowland');
-    INSERT INTO Habitats (id, name) VALUES (25, 'Mangrove Swamps');
-    INSERT INTO Habitats (id, name) VALUES (26, 'Mixed Forests');
-    INSERT INTO Habitats (id, name) VALUES (27, 'Moist Shola Rainforests');
-    INSERT INTO Habitats (id, name) VALUES (28, 'Montane');
-    INSERT INTO Habitats (id, name) VALUES (29, 'Montane Meadows');
-    INSERT INTO Habitats (id, name) VALUES (30, 'Montane Riparian Cloud Forests');
-    INSERT INTO Habitats (id, name) VALUES (31, 'Nearshore Kelp Forests');
-    INSERT INTO Habitats (id, name) VALUES (32, 'Old-growth Deciduous Forests');
-    INSERT INTO Habitats (id, name) VALUES (33, 'Open Fields');
-    INSERT INTO Habitats (id, name) VALUES (34, 'Pampas');
-    INSERT INTO Habitats (id, name) VALUES (35, 'Pastures');
-    INSERT INTO Habitats (id, name) VALUES (36, 'Rice Paddies');
-    INSERT INTO Habitats (id, name) VALUES (37, 'River Valleys');
-    INSERT INTO Habitats (id, name) VALUES (38, 'Riverbanks');
-    INSERT INTO Habitats (id, name) VALUES (39, 'Rocky Mountains');
-    INSERT INTO Habitats (id, name) VALUES (40, 'Semi-deserts');
-    INSERT INTO Habitats (id, name) VALUES (41, 'Shortgrass Prairie');
-    INSERT INTO Habitats (id, name) VALUES (42, 'Shrubby Woodlands');
-    INSERT INTO Habitats (id, name) VALUES (43, 'Slow-moving Amazonian Rivers');
-    INSERT INTO Habitats (id, name) VALUES (44, 'Southeast Asian Swamp Forests');
-    INSERT INTO Habitats (id, name) VALUES (45, 'Steppe');
-    INSERT INTO Habitats (id, name) VALUES (46, 'Steppes');
-    INSERT INTO Habitats (id, name) VALUES (47, 'Subtropical');
-    INSERT INTO Habitats (id, name) VALUES (48, 'Subtropical Forests');
-    INSERT INTO Habitats (id, name) VALUES (49, 'Taiga');
-    INSERT INTO Habitats (id, name) VALUES (50, 'Temperate Forests');
-    INSERT INTO Habitats (id, name) VALUES (51, 'Tropical');
-    INSERT INTO Habitats (id, name) VALUES (52, 'Tropical Forests');
-    INSERT INTO Habitats (id, name) VALUES (53, 'Tundra Edges');
-    INSERT INTO Habitats (id, name) VALUES (54, 'Wetlands');
-    INSERT INTO Habitats (id, name) VALUES (55, 'Woodlands');
+    INSERT INTO Habitats (id, name) VALUES (6, 'Bedrooms');
+    INSERT INTO Habitats (id, name) VALUES (7, 'Boreal Forest');
+    INSERT INTO Habitats (id, name) VALUES (8, 'Broad-leaved');
+    INSERT INTO Habitats (id, name) VALUES (9, 'Cloud Forests');
+    INSERT INTO Habitats (id, name) VALUES (10, 'Coastal Marine');
+    INSERT INTO Habitats (id, name) VALUES (11, 'Coniferous');
+    INSERT INTO Habitats (id, name) VALUES (12, 'Deciduous Woodlands');
+    INSERT INTO Habitats (id, name) VALUES (13, 'Deciduous Woods');
+    INSERT INTO Habitats (id, name) VALUES (14, 'Domesticated');
+    INSERT INTO Habitats (id, name) VALUES (15, 'Dry Scrub');
+    INSERT INTO Habitats (id, name) VALUES (16, 'Farmland');
+    INSERT INTO Habitats (id, name) VALUES (17, 'Forest Streams');
+    INSERT INTO Habitats (id, name) VALUES (18, 'Forests');
+    INSERT INTO Habitats (id, name) VALUES (19, 'Freshwater Rivers');
+    INSERT INTO Habitats (id, name) VALUES (20, 'Grassland');
+    INSERT INTO Habitats (id, name) VALUES (21, 'Grasslands');
+    INSERT INTO Habitats (id, name) VALUES (22, 'Hedgerows');
+    INSERT INTO Habitats (id, name) VALUES (23, 'Hilly Mixed Forests');
+    INSERT INTO Habitats (id, name) VALUES (24, 'Humid Lowland Rainforests');
+    INSERT INTO Habitats (id, name) VALUES (25, 'Lowland');
+    INSERT INTO Habitats (id, name) VALUES (26, 'Mangrove Swamps');
+    INSERT INTO Habitats (id, name) VALUES (27, 'Mixed Forests');
+    INSERT INTO Habitats (id, name) VALUES (28, 'Moist Shola Rainforests');
+    INSERT INTO Habitats (id, name) VALUES (29, 'Montane');
+    INSERT INTO Habitats (id, name) VALUES (30, 'Montane Meadows');
+    INSERT INTO Habitats (id, name) VALUES (31, 'Montane Riparian Cloud Forests');
+    INSERT INTO Habitats (id, name) VALUES (32, 'Nearshore Kelp Forests');
+    INSERT INTO Habitats (id, name) VALUES (33, 'Old-growth Deciduous Forests');
+    INSERT INTO Habitats (id, name) VALUES (34, 'Open Fields');
+    INSERT INTO Habitats (id, name) VALUES (35, 'Pampas');
+    INSERT INTO Habitats (id, name) VALUES (36, 'Pastures');
+    INSERT INTO Habitats (id, name) VALUES (37, 'Rice Paddies');
+    INSERT INTO Habitats (id, name) VALUES (38, 'River Valleys');
+    INSERT INTO Habitats (id, name) VALUES (39, 'Riverbanks');
+    INSERT INTO Habitats (id, name) VALUES (40, 'Rocky Mountains');
+    INSERT INTO Habitats (id, name) VALUES (41, 'Semi-deserts');
+    INSERT INTO Habitats (id, name) VALUES (42, 'Shortgrass Prairie');
+    INSERT INTO Habitats (id, name) VALUES (43, 'Shrubby Woodlands');
+    INSERT INTO Habitats (id, name) VALUES (44, 'Slow-moving Amazonian Rivers');
+    INSERT INTO Habitats (id, name) VALUES (45, 'Southeast Asian Swamp Forests');
+    INSERT INTO Habitats (id, name) VALUES (46, 'Steppe');
+    INSERT INTO Habitats (id, name) VALUES (47, 'Steppes');
+    INSERT INTO Habitats (id, name) VALUES (48, 'Subtropical');
+    INSERT INTO Habitats (id, name) VALUES (49, 'Subtropical Forests');
+    INSERT INTO Habitats (id, name) VALUES (50, 'Taiga');
+    INSERT INTO Habitats (id, name) VALUES (51, 'Temperate Forests');
+    INSERT INTO Habitats (id, name) VALUES (52, 'Tropical');
+    INSERT INTO Habitats (id, name) VALUES (53, 'Tropical Forests');
+    INSERT INTO Habitats (id, name) VALUES (54, 'Tundra Edges');
+    INSERT INTO Habitats (id, name) VALUES (55, 'Wetlands');
+    INSERT INTO Habitats (id, name) VALUES (56, 'Woodlands');
+    INSERT INTO Habitats (id, name) VALUES (57, 'arms');
+    INSERT INTO Habitats (id, name) VALUES (58, 'hearts.');
 
     -- Mustelids and related data
     INSERT INTO Mustelids (id, common_name, scientific_name, subfamily, genus, description, fun_fact, image_url, wiki_url) VALUES (1, 'Amazon weasel', 'Neogale africana', 'Mustelinae', 'Neogale', 'The Amazon weasel is a species of mustelid native to the Amazon basin in South America. Despite its name, it is not found in Africa.', 'They are the only mustelids with a ventral stripe, a dark line that runs down the middle of their pale-colored chest and belly.', '/Mustelids/amazon_weasel/assets/photo.webp', 'https://en.wikipedia.org/wiki/Amazon_weasel');
@@ -107,7 +110,7 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (1, 3, 3.34);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (1, 4, 2.35);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (1, 5, 2.78);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (1, 23);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (1, 24);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (1, 'weight', '0.5 kg (estimated)');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (1, 'lifespan', '3–5 years');
 
@@ -117,8 +120,8 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (2, 3, 3.46);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (2, 4, 2.89);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (2, 5, 2.48);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (2, 14);
     INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (2, 15);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (2, 16);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (2, 'weight', '0.5–1.8 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (2, 'lifespan', '5–8 years');
 
@@ -128,8 +131,8 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (3, 3, 1.12);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (3, 4, 2.66);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (3, 5, 5.0);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (3, 48);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (3, 51);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (3, 49);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (3, 52);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (3, 'weight', '0.8 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (3, 'lifespan', '5–8 years');
 
@@ -139,8 +142,8 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (4, 3, 2.78);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (4, 4, 4.23);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (4, 5, 3.4);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (4, 18);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (4, 54);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (4, 19);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (4, 55);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (4, 'weight', '7–11 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (4, 'lifespan', '4–10 years');
 
@@ -151,7 +154,7 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (5, 4, 4.1);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (5, 5, 3.83);
     INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (5, 5);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (5, 26);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (5, 27);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (5, 'weight', '3.8–11 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (5, 'lifespan', '10 years');
 
@@ -161,8 +164,8 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (6, 3, 2.05);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (6, 4, 3.7);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (6, 5, 3.95);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (6, 10);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (6, 26);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (6, 11);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (6, 27);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (6, 'weight', '2–6 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (6, 'lifespan', '7–10 years');
 
@@ -172,7 +175,7 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (7, 3, 4.82);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (7, 4, 3.09);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (7, 5, 3.58);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (7, 32);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (7, 33);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (7, 'weight', '0.9–2.2 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (7, 'lifespan', '3–4 years');
 
@@ -182,8 +185,8 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (8, 3, 1.37);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (8, 4, 4.42);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (8, 5, 1.8);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (8, 29);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (8, 46);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (8, 30);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (8, 47);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (8, 'weight', '7–17 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (8, 'lifespan', '15 years');
 
@@ -193,8 +196,8 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (9, 3, 4.02);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (9, 4, 2.3);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (9, 5, 3.46);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (9, 16);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (9, 20);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (9, 17);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (9, 21);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (9, 'weight', '0.1–0.82 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (9, 'lifespan', '2–3 years');
 
@@ -204,8 +207,8 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (10, 3, 5.0);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (10, 4, 3.0);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (10, 5, 1.86);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (10, 38);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (10, 54);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (10, 39);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (10, 55);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (10, 'weight', '0.7–2.0 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (10, 'lifespan', '3–5 years');
 
@@ -215,8 +218,8 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (11, 3, 2.42);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (11, 4, 1.83);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (11, 5, 3.71);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (11, 34);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (11, 42);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (11, 35);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (11, 43);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (11, 'weight', '0.225 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (11, 'lifespan', '1–3 years');
 
@@ -226,7 +229,7 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (12, 3, 1.31);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (12, 4, 4.97);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (12, 5, 1.98);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (12, 43);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (12, 44);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (12, 'weight', '22–34 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (12, 'lifespan', '8–13 years');
 
@@ -236,8 +239,8 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (13, 3, 1.25);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (13, 4, 4.33);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (13, 5, 4.82);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (13, 8);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (13, 28);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (13, 9);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (13, 29);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (13, 'weight', '7–14 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (13, 'lifespan', '14–15 years (captivity)');
 
@@ -247,8 +250,8 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (14, 3, 4.63);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (14, 4, 3.06);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (14, 5, 3.09);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (14, 19);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (14, 21);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (14, 20);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (14, 22);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (14, 'weight', '1–2 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (14, 'lifespan', '3–10 years');
 
@@ -258,8 +261,8 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (15, 3, 4.69);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (15, 4, 2.95);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (15, 5, 2.66);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (15, 7);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (15, 26);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (15, 8);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (15, 27);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (15, 'weight', '1–1.5 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (15, 'lifespan', '8–12 years');
 
@@ -269,8 +272,8 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (16, 3, 4.94);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (16, 4, 1.96);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (16, 5, 1.55);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (16, 19);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (16, 21);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (16, 20);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (16, 22);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (16, 'weight', '0.1–0.45 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (16, 'lifespan', '1–5 years');
 
@@ -280,8 +283,8 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (17, 3, 4.51);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (17, 4, 3.0);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (17, 5, 4.14);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (17, 19);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (17, 21);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (17, 20);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (17, 22);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (17, 'weight', '0.7–2.0 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (17, 'lifespan', '4–7 years');
 
@@ -291,8 +294,8 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (18, 3, 3.83);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (18, 4, 3.18);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (18, 5, 3.28);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (18, 12);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (18, 39);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (18, 13);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (18, 40);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (18, 'weight', '1.1–2.5 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (18, 'lifespan', '3–10 years');
 
@@ -302,8 +305,8 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (19, 3, 4.75);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (19, 4, 1.45);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (19, 5, 2.17);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (19, 19);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (19, 21);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (19, 20);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (19, 22);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (19, 'weight', '0.1–0.15 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (19, 'lifespan', '< 2 years');
 
@@ -314,7 +317,7 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (20, 4, 4.33);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (20, 5, 4.63);
     INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (20, 3);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (20, 20);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (20, 21);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (20, 'weight', '5–16 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (20, 'lifespan', '7–8 years');
 
@@ -324,8 +327,8 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (21, 3, 4.57);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (21, 4, 3.61);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (21, 5, 2.29);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (21, 26);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (21, 47);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (21, 27);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (21, 48);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (21, 'weight', '1.2–5.7 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (21, 'lifespan', '7–10 years');
 
@@ -335,8 +338,8 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (22, 3, 3.89);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (22, 4, 1.93);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (22, 5, 1.68);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (22, 19);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (22, 21);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (22, 20);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (22, 22);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (22, 'weight', '0.07–0.45 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (22, 'lifespan', '3–7 years');
 
@@ -346,7 +349,7 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (23, 3, 3.58);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (23, 4, 5.0);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (23, 5, 1.06);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (23, 31);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (23, 32);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (23, 'weight', '14–45 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (23, 'lifespan', '10–15 years');
 
@@ -356,7 +359,7 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (24, 3, 4.14);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (24, 4, 1.5);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (24, 5, 3.15);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (24, 30);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (24, 31);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (24, 'weight', '0.12–0.15 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (24, 'lifespan', '1–6 years');
 
@@ -366,9 +369,9 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (25, 3, 2.29);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (25, 4, 3.99);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (25, 5, 3.34);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (25, 17);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (25, 46);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (25, 53);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (25, 18);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (25, 47);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (25, 54);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (25, 'weight', '3.5–9 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (25, 'lifespan', '5–10 years');
 
@@ -378,8 +381,8 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (26, 3, 1.49);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (26, 4, 3.25);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (26, 5, 4.51);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (26, 48);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (26, 51);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (26, 49);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (26, 52);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (26, 'weight', '1–3 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (26, 'lifespan', '< 5 years');
 
@@ -389,8 +392,8 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (27, 3, 3.95);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (27, 4, 1.32);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (27, 5, 1.92);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (27, 19);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (27, 21);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (27, 20);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (27, 22);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (27, 'weight', '0.025–0.18 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (27, 'lifespan', '1–2 years');
 
@@ -400,8 +403,8 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (28, 3, 3.65);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (28, 4, 4.3);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (28, 5, 1.49);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (28, 18);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (28, 54);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (28, 19);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (28, 55);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (28, 'weight', '5–15 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (28, 'lifespan', '10–15 years');
 
@@ -411,8 +414,8 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (29, 3, 3.77);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (29, 4, 1.0);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (29, 5, 1.31);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (29, 19);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (29, 21);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (29, 20);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (29, 22);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (29, 'weight', '0.025–0.1 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (29, 'lifespan', '< 1 year');
 
@@ -423,7 +426,7 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (30, 4, 4.47);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (30, 5, 3.77);
     INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (30, 2);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (30, 6);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (30, 7);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (30, 'weight', '8–18 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (30, 'lifespan', '5–10 years');
 
@@ -433,8 +436,8 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (31, 3, 3.4);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (31, 4, 3.06);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (31, 5, 4.02);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (31, 19);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (31, 21);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (31, 20);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (31, 22);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (31, 'weight', '1.5 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (31, 'lifespan', '3–4 years');
 
@@ -444,8 +447,8 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (32, 3, 1.43);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (32, 4, 4.66);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (32, 5, 3.65);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (32, 18);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (32, 54);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (32, 19);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (32, 55);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (32, 'weight', '10–25 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (32, 'lifespan', '10–15 years');
 
@@ -455,7 +458,7 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (33, 3, 1.98);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (33, 4, 3.28);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (33, 5, 2.35);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (33, 27);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (33, 28);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (33, 'weight', '2.1 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (33, 'lifespan', '12–15 years');
 
@@ -465,8 +468,8 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (34, 3, 4.2);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (34, 4, 2.96);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (34, 5, 2.11);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (34, 10);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (34, 26);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (34, 11);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (34, 27);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (34, 'weight', '0.75–1.8 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (34, 'lifespan', '4–6 years');
 
@@ -476,8 +479,8 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (35, 3, 4.88);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (35, 4, 3.78);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (35, 5, 1.25);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (35, 18);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (35, 54);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (35, 19);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (35, 55);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (35, 'weight', '3–6 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (35, 'lifespan', '8 years');
 
@@ -487,8 +490,8 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (36, 3, 2.6);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (36, 4, 4.42);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (36, 5, 4.08);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (36, 11);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (36, 35);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (36, 12);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (36, 36);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (36, 'weight', '7–17 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (36, 'lifespan', '3–8 years');
 
@@ -499,7 +502,7 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (37, 4, 2.35);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (37, 5, 2.91);
     INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (37, 4);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (37, 40);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (37, 41);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (37, 'weight', '0.3–0.7 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (37, 'lifespan', '8–12 years');
 
@@ -509,8 +512,8 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (38, 3, 3.03);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (38, 4, 3.43);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (38, 5, 4.32);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (38, 45);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (38, 52);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (38, 46);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (38, 53);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (38, 'weight', '1.5–3.8 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (38, 'lifespan', '10–12 years');
 
@@ -520,9 +523,9 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (39, 3, 4.26);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (39, 4, 2.46);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (39, 5, 2.23);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (39, 37);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (39, 49);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (39, 54);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (39, 38);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (39, 50);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (39, 55);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (39, 'weight', '0.36–0.82 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (39, 'lifespan', '2.1 years');
 
@@ -532,8 +535,8 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (40, 3, 4.08);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (40, 4, 3.01);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (40, 5, 4.2);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (40, 14);
     INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (40, 15);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (40, 16);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (40, 'weight', '0.7–2.05 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (40, 'lifespan', 'Up to 5 years');
 
@@ -543,8 +546,8 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (41, 3, 3.52);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (41, 4, 3.25);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (41, 5, 4.45);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (41, 48);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (41, 51);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (41, 49);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (41, 52);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (41, 'weight', '1–3 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (41, 'lifespan', '< 10 years');
 
@@ -554,8 +557,8 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (42, 3, 2.97);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (42, 4, 2.38);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (42, 5, 4.26);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (42, 14);
     INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (42, 15);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (42, 16);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (42, 'weight', '0.24–0.8 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (42, 'lifespan', '5–6 years');
 
@@ -565,8 +568,8 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (43, 3, 2.48);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (43, 4, 2.83);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (43, 5, 1.18);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (43, 10);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (43, 26);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (43, 11);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (43, 27);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (43, 'weight', '0.5–1.6 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (43, 'lifespan', '12–17 years');
 
@@ -576,8 +579,8 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (44, 3, 2.72);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (44, 4, 4.62);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (44, 5, 1.74);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (44, 18);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (44, 54);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (44, 19);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (44, 55);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (44, 'weight', '12–21 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (44, 'lifespan', '10–12 years');
 
@@ -587,8 +590,8 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (45, 3, 4.32);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (45, 4, 2.95);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (45, 5, 2.54);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (45, 10);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (45, 26);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (45, 11);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (45, 27);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (45, 'weight', '0.7–1.8 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (45, 'lifespan', 'Up to 18 years');
 
@@ -598,8 +601,8 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (46, 3, 3.71);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (46, 4, 4.11);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (46, 5, 1.12);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (46, 18);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (46, 54);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (46, 19);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (46, 55);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (46, 'weight', '5–10 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (46, 'lifespan', '3–5 years');
 
@@ -609,8 +612,8 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (47, 3, 2.91);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (47, 4, 2.57);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (47, 5, 3.89);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (47, 38);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (47, 54);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (47, 39);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (47, 55);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (47, 'weight', '0.5–0.9 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (47, 'lifespan', '6–10 years');
 
@@ -620,7 +623,7 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (48, 3, 1.8);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (48, 4, 3.78);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (48, 5, 1.37);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (48, 9);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (48, 10);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (48, 'weight', '3–6 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (48, 'lifespan', '10–15 years');
 
@@ -630,8 +633,8 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (49, 3, 2.23);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (49, 4, 4.26);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (49, 5, 1.43);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (49, 18);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (49, 54);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (49, 19);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (49, 55);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (49, 'weight', '5–14 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (49, 'lifespan', '8–13 years');
 
@@ -641,8 +644,8 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (50, 3, 2.66);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (50, 4, 3.06);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (50, 5, 2.72);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (50, 48);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (50, 51);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (50, 49);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (50, 52);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (50, 'weight', '1–2 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (50, 'lifespan', '5–8 years');
 
@@ -652,8 +655,8 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (51, 3, 1.62);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (51, 4, 3.89);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (51, 5, 2.97);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (51, 45);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (51, 52);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (51, 46);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (51, 53);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (51, 'weight', '2.7–8 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (51, 'lifespan', 'Unknown (Wild)');
 
@@ -663,8 +666,8 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (52, 3, 1.18);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (52, 4, 4.33);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (52, 5, 4.94);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (52, 22);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (52, 24);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (52, 23);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (52, 25);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (52, 'weight', '7–14 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (52, 'lifespan', '8–12 years');
 
@@ -674,8 +677,8 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (53, 3, 1.68);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (53, 4, 3.25);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (53, 5, 4.38);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (53, 48);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (53, 51);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (53, 49);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (53, 52);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (53, 'weight', '< 2 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (53, 'lifespan', '< 10 years');
 
@@ -685,8 +688,8 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (54, 3, 3.28);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (54, 4, 2.83);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (54, 5, 2.42);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (54, 14);
     INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (54, 15);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (54, 16);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (54, 'weight', '0.4–1.7 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (54, 'lifespan', '5–6 years');
 
@@ -696,7 +699,7 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (55, 3, 2.35);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (55, 4, 2.8);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (55, 5, 3.22);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (55, 41);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (55, 42);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (55, 'weight', '0.6–1.4 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (55, 'lifespan', '1–4 years');
 
@@ -706,8 +709,8 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (56, 3, 1.92);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (56, 4, 4.33);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (56, 5, 4.88);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (56, 20);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (56, 50);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (56, 21);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (56, 51);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (56, 'weight', '7–14 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (56, 'lifespan', '14 years (captivity)');
 
@@ -718,7 +721,7 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (57, 4, 2.05);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (57, 5, 4.57);
     INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (57, 1);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (57, 19);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (57, 20);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (57, 'weight', '0.29–0.34 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (57, 'lifespan', '7–10 years');
 
@@ -728,8 +731,8 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (58, 3, 2.17);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (58, 4, 4.26);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (58, 5, 2.05);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (58, 18);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (58, 54);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (58, 19);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (58, 55);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (58, 'weight', '7–12 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (58, 'lifespan', '3–4 years');
 
@@ -739,8 +742,8 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (59, 3, 1.86);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (59, 4, 3.16);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (59, 5, 3.03);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (59, 45);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (59, 52);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (59, 46);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (59, 53);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (59, 'weight', '1–2.5 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (59, 'lifespan', '10+ years (captivity)');
 
@@ -750,8 +753,8 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (60, 3, 2.11);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (60, 4, 4.15);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (60, 5, 4.69);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (60, 33);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (60, 55);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (60, 34);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (60, 56);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (60, 'weight', '4–12 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (60, 'lifespan', '4–10 years');
 
@@ -761,8 +764,8 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (61, 3, 3.09);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (61, 4, 3.57);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (61, 5, 1.62);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (61, 25);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (61, 36);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (61, 26);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (61, 37);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (61, 'weight', '1–5.5 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (61, 'lifespan', '10–16 years');
 
@@ -772,8 +775,8 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (62, 3, 1.55);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (62, 4, 3.25);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (62, 5, 4.75);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (62, 48);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (62, 51);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (62, 49);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (62, 52);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (62, 'weight', '1–3 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (62, 'lifespan', '< 10 years');
 
@@ -783,7 +786,7 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (63, 3, 3.22);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (63, 4, 2.95);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (63, 5, 2.85);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (63, 13);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (63, 14);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (63, 'weight', '0.5–2.0 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (63, 'lifespan', '5–8 years');
 
@@ -793,8 +796,8 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (64, 3, 1.74);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (64, 4, 2.03);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (64, 5, 3.52);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (64, 19);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (64, 21);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (64, 20);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (64, 22);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (64, 'weight', '0.23–0.38 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (64, 'lifespan', '5–6 years');
 
@@ -804,7 +807,7 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (65, 3, 2.54);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (65, 4, 4.02);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (65, 5, 1.0);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (65, 44);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (65, 45);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (65, 'weight', '5–8 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (65, 'lifespan', '10–12 years');
 
@@ -815,9 +818,21 @@ BEGIN
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (66, 4, 1.86);
     INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (66, 5, 2.6);
     INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (66, 1);
-    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (66, 19);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (66, 20);
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (66, 'weight', '0.12–0.35 kg');
     INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (66, 'lifespan', '7–10 years');
+
+    INSERT INTO Mustelids (id, common_name, scientific_name, subfamily, genus, description, fun_fact, image_url, wiki_url) VALUES (67, 'Cuddlebug', 'Lutra Bombacia', 'Lutrinae', 'Neogale', 'This is Cuddlebug. He loves you. <3', 'He twerk. :3', '/Mustelids/cuddlebug/assets/photo.webp', 'https://en.wikipedia.org/wiki/Colombian_weasel');
+    INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (67, 1, 5);
+    INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (67, 2, 5);
+    INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (67, 3, 5);
+    INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (67, 4, 5);
+    INSERT INTO MustelidTraits (mustelid_id, trait_id, value) VALUES (67, 5, 5);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (67, 6);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (67, 57);
+    INSERT INTO MustelidHabitats (mustelid_id, habitat_id) VALUES (67, 58);
+    INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (67, 'weight', 'Wait');
+    INSERT INTO Stats (mustelid_id, stat_name, stat_value) VALUES (67, 'lifespan', '∞ years');
 
     COMMIT;
 END;

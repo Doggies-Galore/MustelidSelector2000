@@ -21,7 +21,7 @@ class SliderApp(App):
                 yield textual_slider.Slider(1, 5, step=0.5, id="biome")
                 yield Static("Dog - Noodle")
                 yield textual_slider.Slider(1, 5, step=0.5, id="noodle")
-                yield Static("Serious - Sillay")
+                yield Static("Sillay - Serious")
                 yield textual_slider.Slider(1, 5, step=0.5, id="sillay")
                 yield Static("Smol - Big")
                 yield textual_slider.Slider(1, 5, step=0.5, id="size")
