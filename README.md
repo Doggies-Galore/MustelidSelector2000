@@ -28,12 +28,16 @@ All TUI-based interactions are dependant upon data.sql, which can be generated v
 
 ![A 3NF Schema Diagram for MustelidSelector2000, with a Traits table (id and name), a MustelidsTraits (id, name,value), a Mustelids Table (id, name,description,fun_fact,weight,lifespan,wiki_url,image_url,habitat), a MustelidHabitats (id, habitat_id) and a Habitats Table (id, name) ](UX/Schema.png)
 
-MustelidSelector2000 uses a 3NF Schema.
+MustelidSelector2000 uses a 3NF Schema, and uses the following tables:
 
 **Traits Table** (id and name)
-**MustelidsTraits Table** (id, name,value)
-**Mustelids Table** (id, name,description,fun_fact,weight,lifespan,wiki_url,image_url,habitat)
+
+**MustelidsTraits Table** (id, name, value)
+
+**Mustelids Table** (id, name, description, fun_fact, weight, lifespan, wiki_url, image_url, habitat)
+
 **MustelidHabitats** (id, habitat_id)
+
 **Habitats Table** (id, name)
 
 ### About the TUI
