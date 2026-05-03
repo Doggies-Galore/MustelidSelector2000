@@ -1,15 +1,15 @@
 #!/bin/bash
 
-# Mustelid Sorter 2000 - Server Management Tool
+# MustelidSelector2000 - Server Management Tool
 # Usage: ./manage.sh [start|stop|restart|logs]
 
 VENV_PATH="venv"
-SERVER_SCRIPT="mustelid-sort.py"
+SERVER_SCRIPT="sort.py"
 LOG_FILE="server.log"
 
 case "$1" in
     start)
-        echo "Starting Mustelid Sorter Server..."
+        echo "Starting Mustelid Selector Server..."
         if pgrep -f "$SERVER_SCRIPT" > /dev/null; then
             echo "Server is already running."
         else
@@ -19,12 +19,12 @@ case "$1" in
         fi
         ;;
     stop)
-        echo "Stopping Mustelid Sorter Server..."
+        echo "Stopping Mustelid Selector Server..."
         pkill -f "$SERVER_SCRIPT"
         echo "Server stopped."
         ;;
     restart)
-        echo "Restarting Mustelid Sorter Server..."
+        echo "Restarting Mustelid Selector Server..."
         pkill -f "$SERVER_SCRIPT"
         sleep 1
         source "$VENV_PATH/bin/activate"

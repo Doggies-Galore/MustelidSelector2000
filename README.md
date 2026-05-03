@@ -16,11 +16,11 @@ The TUI can be run through the database manager:
 
 The WebUX can be hosted via Tailscale by running the Python server:
 
-``python mustelid-sort.py``
+``python sort.py``
 
 Annnnnd navigating to the URL below:
 
-``https://[TAILSCALE_IP_ADDRESS]/selector``
+``https://[TAILSCALE_IP_ADDRESS]/``
 
 # Schema
 
@@ -44,7 +44,7 @@ The TUI is capable of importing mustelids from the primary mustelids file (DB/da
 
 ### About the GUI
 
-The GUI doesn't use the SQL backend *at all*. Rather, it uses cached JSON of each mustelid to retrieve closest matches, and caches assets of each mustelid in the background. If, for whatever reason, an image could not be pre-cached, the GUI attempts to download each image JIT style. 
+The GUI doesn't use the SQL backend *at all*. Rather, it uses cached JSON of each mustelid to retrieve closest matches, and caches assets of each mustelid in the background. If, for whatever reason, an image could not be pre-cached, the GUI attempts to download each image JIT style.
 
 ### Reflection
 
