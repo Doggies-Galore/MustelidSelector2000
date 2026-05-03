@@ -1,0 +1,18 @@
+{
+  "common_name": "Smooth-coated otter",
+  "scientific_name": "Lutrogale perspicillata",
+  "subfamily": "Lutrinae",
+  "genus": "Lutrogale",
+  "description": "The smooth-coated otter is an otter species found in South and Southeast Asia. It is known for its smooth, sleek fur.",
+  "fun_fact": "They are highly social and hunt in coordinated V-shaped formations to herd schools of fish into shallow water where they are easier to catch.",
+  "weight": "7\u201311 kg",
+  "lifespan": "4\u201310 years",
+  "wiki_url": "https://en.wikipedia.org/wiki/Smooth-coated_otter",
+  "image_url": "./assets/photo.webp",
+  "habitat": "Freshwater Rivers & Wetlands",
+  "noodle": 3.58,
+  "size": 4.23,
+  "biome": 4.32,
+  "sillay": 2.78,
+  "snoot": 3.4
+}

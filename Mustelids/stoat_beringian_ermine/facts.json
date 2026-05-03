@@ -1,0 +1,18 @@
+{
+  "common_name": "Stoat (Beringian ermine)",
+  "scientific_name": "Mustela erminea",
+  "subfamily": "Mustelinae",
+  "genus": "Mustela",
+  "description": "The stoat, also known as the ermine or Beringian ermine, is a species of mustelid native to Eurasia and the northern regions of North America.",
+  "fun_fact": "Regardless of whether its coat is brown or winter white, the tip of a stoat's tail always remains black, likely to distract predators.",
+  "weight": "0.1\u20130.45 kg",
+  "lifespan": "1\u20135 years",
+  "wiki_url": "https://en.wikipedia.org/wiki/Stoat",
+  "image_url": "./assets/photo.webp",
+  "habitat": "Hedgerows & Grassland",
+  "noodle": 4.63,
+  "size": 1.96,
+  "biome": 1.49,
+  "sillay": 4.94,
+  "snoot": 1.55
+}

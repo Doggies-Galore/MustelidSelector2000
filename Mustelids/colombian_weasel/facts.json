@@ -1,0 +1,18 @@
+{
+  "common_name": "Colombian weasel",
+  "scientific_name": "Neogale felipei",
+  "subfamily": "Mustelinae",
+  "genus": "Neogale",
+  "description": "The Colombian weasel, also known as Don Felipe's weasel, is a very rare species of mustelid found in Colombia and Ecuador.",
+  "fun_fact": "They are considered the rarest carnivore in South America and have noticeable webbing between their toes, suggesting a semi-aquatic lifestyle.",
+  "weight": "0.12\u20130.15 kg",
+  "lifespan": "1\u20136 years",
+  "wiki_url": "https://en.wikipedia.org/wiki/Colombian_weasel",
+  "image_url": "./assets/photo.webp",
+  "habitat": "Montane Riparian Cloud Forests",
+  "noodle": 4.08,
+  "size": 1.5,
+  "biome": 1.8,
+  "sillay": 4.14,
+  "snoot": 3.15
+}

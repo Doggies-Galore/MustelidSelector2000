@@ -1,0 +1,18 @@
+{
+  "common_name": "American marten",
+  "scientific_name": "Martes americana",
+  "subfamily": "Guloninae",
+  "genus": "Martes",
+  "description": "The American marten is a North American mammal, a member of the family Mustelidae. It is also sometimes referred to as the American pine marten.",
+  "fun_fact": "A group of martens is collectively known as a richness.",
+  "weight": "0.5\u20131.6 kg",
+  "lifespan": "12\u201317 years",
+  "wiki_url": "https://en.wikipedia.org/wiki/American_marten",
+  "image_url": "./assets/photo.webp",
+  "habitat": "Coniferous & Mixed Forests",
+  "noodle": 4.26,
+  "size": 2.83,
+  "biome": 2.66,
+  "sillay": 2.48,
+  "snoot": 1.18
+}

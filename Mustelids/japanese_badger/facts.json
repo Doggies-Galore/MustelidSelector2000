@@ -1,0 +1,18 @@
+{
+  "common_name": "Japanese badger",
+  "scientific_name": "Meles anakuma",
+  "subfamily": "Melinae",
+  "genus": "Meles",
+  "description": "The Japanese badger is a species of badger endemic to Japan, where it is found on Honshu, Kyushu, Shikoku, and Shodoshima.",
+  "fun_fact": "In Japanese folklore, they are known as mujina and are believed to be shapeshifters capable of taking human form.",
+  "weight": "3.8\u201311 kg",
+  "lifespan": "10 years",
+  "wiki_url": "https://en.wikipedia.org/wiki/Japanese_badger",
+  "image_url": "./assets/photo.webp",
+  "habitat": "Mixed Forests & Bamboo Groves",
+  "noodle": 1.49,
+  "size": 4.1,
+  "biome": 1.86,
+  "sillay": 4.38,
+  "snoot": 3.83
+}

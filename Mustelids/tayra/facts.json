@@ -1,0 +1,18 @@
+{
+  "common_name": "Tayra",
+  "scientific_name": "Eira barbara",
+  "subfamily": "Guloninae",
+  "genus": "Eira",
+  "description": "The tayra is an omnivorous animal from the weasel family, native to the Americas. It is the only species in the genus Eira and is found from southern Mexico to northern Argentina and on the island of Trinidad.",
+  "fun_fact": "They have been observed picking unripe plantains and hiding them to ripen, which may be evidence of future planning behavior.",
+  "weight": "2.7\u20138 kg",
+  "lifespan": "Unknown (Wild)",
+  "wiki_url": "https://en.wikipedia.org/wiki/Tayra",
+  "image_url": "./assets/photo.webp",
+  "habitat": "Tropical Forests & Steppe",
+  "noodle": 2.05,
+  "size": 3.89,
+  "biome": 3.83,
+  "sillay": 1.62,
+  "snoot": 2.97
+}

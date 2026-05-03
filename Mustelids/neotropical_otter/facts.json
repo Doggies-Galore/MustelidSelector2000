@@ -1,0 +1,18 @@
+{
+  "common_name": "Neotropical otter",
+  "scientific_name": "Lontra longicaudis",
+  "subfamily": "Lutrinae",
+  "genus": "Lontra",
+  "description": "The neotropical otter, also known as the neotropical river otter, is an otter species found in Central America, South America and the island of Trinidad.",
+  "fun_fact": "They are intelligent tool users and have been observed using rocks to break open the shells of crustaceans and mollusks.",
+  "weight": "5\u201315 kg",
+  "lifespan": "10\u201315 years",
+  "wiki_url": "https://en.wikipedia.org/wiki/Neotropical_otter",
+  "image_url": "./assets/photo.webp",
+  "habitat": "Freshwater Rivers & Wetlands",
+  "noodle": 1.31,
+  "size": 4.3,
+  "biome": 4.69,
+  "sillay": 3.65,
+  "snoot": 1.49
+}

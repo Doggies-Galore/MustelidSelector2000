@@ -1,0 +1,18 @@
+{
+  "common_name": "American ermine",
+  "scientific_name": "Mustela richardsonii",
+  "subfamily": "Mustelinae",
+  "genus": "Mustela",
+  "description": "The American ermine is a species of mustelid native to North America. It was formerly considered a subspecies of the stoat.",
+  "fun_fact": "They exhibit a reproductive strategy called embryonic diapause, where the embryo remains dormant for months so the young are born in spring.",
+  "weight": "0.025\u20130.18 kg",
+  "lifespan": "1\u20132 years",
+  "wiki_url": "https://en.wikipedia.org/wiki/American_ermine",
+  "image_url": "./assets/photo.webp",
+  "habitat": "Hedgerows & Grassland",
+  "noodle": 4.69,
+  "size": 1.32,
+  "biome": 2.72,
+  "sillay": 3.95,
+  "snoot": 1.92
+}

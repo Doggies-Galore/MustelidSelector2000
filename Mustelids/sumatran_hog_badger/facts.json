@@ -1,0 +1,18 @@
+{
+  "common_name": "Sumatran hog badger",
+  "scientific_name": "Arctonyx hoevenii",
+  "subfamily": "Melinae",
+  "genus": "Arctonyx",
+  "description": "The Sumatran hog badger is a species of mustelid endemic to the island of Sumatra in Indonesia. It is the smallest of the three species in the genus Arctonyx.",
+  "fun_fact": "They are the smallest species in their genus and are exclusively found on the island of Sumatra, often at high altitudes.",
+  "weight": "7\u201314 kg",
+  "lifespan": "14\u201315 years (captivity)",
+  "wiki_url": "https://en.wikipedia.org/wiki/Sumatran_hog_badger",
+  "image_url": "./assets/photo.webp",
+  "habitat": "Montane & Cloud Forests",
+  "noodle": 2.11,
+  "size": 4.33,
+  "biome": 2.6,
+  "sillay": 1.25,
+  "snoot": 4.82
+}

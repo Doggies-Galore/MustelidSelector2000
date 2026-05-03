@@ -1,0 +1,18 @@
+{
+  "common_name": "Bornean ferret-badger",
+  "scientific_name": "Melogale everetti",
+  "subfamily": "Helictidinae",
+  "genus": "Melogale",
+  "description": "The Bornean ferret-badger, also known as Everett's ferret-badger or the Kinabalu ferret-badger, is a small mustelid endemic to the island of Borneo. It is listed as Endangered on the IUCN Red List due to its restricted range and habitat loss.",
+  "fun_fact": "They cleverly repurpose abandoned burrows created by other animals rather than digging their own, despite having strong claws.",
+  "weight": "1\u20133 kg",
+  "lifespan": "< 5 years",
+  "wiki_url": "https://en.wikipedia.org/wiki/Bornean_ferret-badger",
+  "image_url": "./assets/photo.webp",
+  "habitat": "Tropical & Subtropical Forests",
+  "noodle": 1.74,
+  "size": 3.25,
+  "biome": 3.4,
+  "sillay": 1.49,
+  "snoot": 4.51
+}

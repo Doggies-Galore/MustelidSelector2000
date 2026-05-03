@@ -1,0 +1,18 @@
+{
+  "common_name": "Burmese ferret-badger",
+  "scientific_name": "Melogale personata",
+  "subfamily": "Helictidinae",
+  "genus": "Melogale",
+  "description": "The Burmese ferret-badger, also known as the large-toothed ferret-badger, is a species of mustelid found in Southeast Asia, from Nepal and northeastern India to Indochina.",
+  "fun_fact": "Each individual has a unique pattern of black and white patches on its face, making them easy to identify from one another.",
+  "weight": "1\u20133 kg",
+  "lifespan": "< 10 years",
+  "wiki_url": "https://en.wikipedia.org/wiki/Burmese_ferret-badger",
+  "image_url": "./assets/photo.webp",
+  "habitat": "Tropical & Subtropical Forests",
+  "noodle": 3.71,
+  "size": 3.25,
+  "biome": 3.09,
+  "sillay": 1.55,
+  "snoot": 4.75
+}

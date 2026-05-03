@@ -1,0 +1,18 @@
+{
+  "common_name": "Long-tailed weasel",
+  "scientific_name": "Neogale frenata",
+  "subfamily": "Mustelinae",
+  "genus": "Neogale",
+  "description": "The long-tailed weasel, also known as the bridled weasel or big over-and-under, is a species of mustelid native to North America.",
+  "fun_fact": "Unlike skunks which spray, long-tailed weasels drag and rub their bodies against surfaces to mark territory with their musky odor.",
+  "weight": "0.07\u20130.45 kg",
+  "lifespan": "3\u20137 years",
+  "wiki_url": "https://en.wikipedia.org/wiki/Long-tailed_weasel",
+  "image_url": "./assets/photo.webp",
+  "habitat": "Hedgerows & Grassland",
+  "noodle": 4.88,
+  "size": 1.93,
+  "biome": 2.54,
+  "sillay": 3.89,
+  "snoot": 1.68
+}

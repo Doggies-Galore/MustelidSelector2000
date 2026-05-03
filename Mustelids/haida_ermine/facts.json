@@ -1,0 +1,18 @@
+{
+  "common_name": "Haida ermine",
+  "scientific_name": "Mustela haidarum",
+  "subfamily": "Mustelinae",
+  "genus": "Mustela",
+  "description": "The Haida ermine is a species of mustelid endemic to the islands of the Haida Gwaii archipelago in British Columbia and the Alexander Archipelago in Alaska.",
+  "fun_fact": "They were only recognized as a distinct species in 2021 after being isolated on the Haida Gwaii archipelago for approximately 300,000 years.",
+  "weight": "0.1\u20130.15 kg",
+  "lifespan": "< 2 years",
+  "wiki_url": "https://en.wikipedia.org/wiki/Haida_ermine",
+  "image_url": "./assets/photo.webp",
+  "habitat": "Hedgerows & Grassland",
+  "noodle": 4.75,
+  "size": 1.45,
+  "biome": 3.03,
+  "sillay": 4.75,
+  "snoot": 2.17
+}

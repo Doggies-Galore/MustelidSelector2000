@@ -1,0 +1,1141 @@
+{
+  "amazon_weasel": {
+    "name": "Amazon weasel",
+    "scientific_name": "Neogale africana",
+    "image": "https://doggies-galore.github.io/Mustelids/amazon_weasel/assets/photo.webp",
+    "description": "The Amazon weasel is a species of mustelid native to the Amazon basin in South America. Despite its name, it is not found in Africa.",
+    "fun_fact": "They are the only mustelids with a ventral stripe, a dark line that runs down the middle of their pale-colored chest and belly.",
+    "weight": "0.5 kg (estimated)",
+    "lifespan": "3\u20135 years",
+    "habitat": "Humid Lowland Rainforests",
+    "scores": {
+      "noodle": 4.32,
+      "size": 2.35,
+      "biome": 4.02,
+      "sillay": 3.34,
+      "snoot": 2.78
+    }
+  },
+  "striped_polecat": {
+    "name": "Striped polecat",
+    "scientific_name": "Ictonyx striatus",
+    "image": "https://doggies-galore.github.io/Mustelids/striped_polecat/assets/photo.webp",
+    "description": "The striped polecat, also known as the zorilla, is a member of the family Mustelidae that resembles a skunk. It is found in sub-Saharan Africa.",
+    "fun_fact": "Often called the zorilla, their defensive spray is so powerful it can cause temporary blindness in potential predators.",
+    "weight": "0.5\u20131.8 kg",
+    "lifespan": "5\u20138 years",
+    "habitat": "Dry Scrub & Farmland",
+    "scores": {
+      "noodle": 2.17,
+      "size": 2.89,
+      "biome": 1.06,
+      "sillay": 3.46,
+      "snoot": 2.48
+    }
+  },
+  "vietnam_ferret_badger": {
+    "name": "Vietnam ferret-badger",
+    "scientific_name": "Melogale cucphuongensis",
+    "image": "https://doggies-galore.github.io/Mustelids/vietnam_ferret_badger/assets/photo.webp",
+    "description": "The Vietnam ferret-badger is a species of mustelid endemic to Vietnam. It was only described as a distinct species in 2011.",
+    "fun_fact": "This extremely rare species was only discovered by scientists in 2011 and is one of the least-studied mammals in the world.",
+    "weight": "0.8 kg",
+    "lifespan": "5\u20138 years",
+    "habitat": "Tropical & Subtropical Forests",
+    "scores": {
+      "noodle": 1.98,
+      "size": 2.66,
+      "biome": 3.65,
+      "sillay": 1.12,
+      "snoot": 5.0
+    }
+  },
+  "smooth_coated_otter": {
+    "name": "Smooth-coated otter",
+    "scientific_name": "Lutrogale perspicillata",
+    "image": "https://doggies-galore.github.io/Mustelids/smooth_coated_otter/assets/photo.webp",
+    "description": "The smooth-coated otter is an otter species found in South and Southeast Asia. It is known for its smooth, sleek fur.",
+    "fun_fact": "They are highly social and hunt in coordinated V-shaped formations to herd schools of fish into shallow water where they are easier to catch.",
+    "weight": "7\u201311 kg",
+    "lifespan": "4\u201310 years",
+    "habitat": "Freshwater Rivers & Wetlands",
+    "scores": {
+      "noodle": 3.58,
+      "size": 4.23,
+      "biome": 4.32,
+      "sillay": 2.78,
+      "snoot": 3.4
+    }
+  },
+  "japanese_badger": {
+    "name": "Japanese badger",
+    "scientific_name": "Meles anakuma",
+    "image": "https://doggies-galore.github.io/Mustelids/japanese_badger/assets/photo.webp",
+    "description": "The Japanese badger is a species of badger endemic to Japan, where it is found on Honshu, Kyushu, Shikoku, and Shodoshima.",
+    "fun_fact": "In Japanese folklore, they are known as mujina and are believed to be shapeshifters capable of taking human form.",
+    "weight": "3.8\u201311 kg",
+    "lifespan": "10 years",
+    "habitat": "Mixed Forests & Bamboo Groves",
+    "scores": {
+      "noodle": 1.49,
+      "size": 4.1,
+      "biome": 1.86,
+      "sillay": 4.38,
+      "snoot": 3.83
+    }
+  },
+  "fisher": {
+    "name": "Fisher",
+    "scientific_name": "Pekania pennanti",
+    "image": "https://doggies-galore.github.io/Mustelids/fisher/assets/photo.webp",
+    "description": "The fisher is a small carnivorous mammal native to North America. It is a member of the mustelid family and is the only living species in the genus Pekania.",
+    "fun_fact": "They are one of the few animals capable of successfully preying on porcupines by using their agility to attack the face or flip them over.",
+    "weight": "2\u20136 kg",
+    "lifespan": "7\u201310 years",
+    "habitat": "Coniferous & Mixed Forests",
+    "scores": {
+      "noodle": 2.42,
+      "size": 3.7,
+      "biome": 2.48,
+      "sillay": 2.05,
+      "snoot": 3.95
+    }
+  },
+  "european_pine_marten": {
+    "name": "European pine marten",
+    "scientific_name": "Martes martes",
+    "image": "https://doggies-galore.github.io/Mustelids/european_pine_marten/assets/photo.webp",
+    "description": "The European pine marten, also known as the pine marten or the sweet marten, is an animal native to Northern Europe.",
+    "fun_fact": "They are the only mustelids with semi-retractable claws, which combined with 180-degree rotating ankles, makes them expert climbers.",
+    "weight": "0.9\u20132.2 kg",
+    "lifespan": "3\u20134 years",
+    "habitat": "Old-growth Deciduous Forests",
+    "scores": {
+      "noodle": 2.6,
+      "size": 3.09,
+      "biome": 3.28,
+      "sillay": 4.82,
+      "snoot": 3.58
+    }
+  },
+  "caucasian_badger": {
+    "name": "Caucasian badger",
+    "scientific_name": "Meles canescens",
+    "image": "https://doggies-galore.github.io/Mustelids/caucasian_badger/assets/photo.webp",
+    "description": "The Caucasian badger, also known as the Southwest Asian badger, is a species of badger native to Western Asia and some islands in the Mediterranean Sea.",
+    "fun_fact": "They were only officially recognized as a distinct species from the European badger in 2013 following genetic studies.",
+    "weight": "7\u201317 kg",
+    "lifespan": "15 years",
+    "habitat": "Montane Meadows & Steppes",
+    "scores": {
+      "noodle": 1.43,
+      "size": 4.42,
+      "biome": 2.17,
+      "sillay": 1.37,
+      "snoot": 1.8
+    }
+  },
+  "japanese_weasel": {
+    "name": "Japanese weasel",
+    "scientific_name": "Mustela itatsi",
+    "image": "https://doggies-galore.github.io/Mustelids/japanese_weasel/assets/photo.webp",
+    "description": "The Japanese weasel is a carnivorous mammal belonging to the genus Mustela in the family Mustelidae. It is native to Japan.",
+    "fun_fact": "In Japanese folklore, they are associated with the kamaitachi, a supernatural creature depicted as a weasel with sickle-like claws.",
+    "weight": "0.1\u20130.82 kg",
+    "lifespan": "2\u20133 years",
+    "habitat": "Forest Streams & Grasslands",
+    "scores": {
+      "noodle": 4.82,
+      "size": 2.3,
+      "biome": 2.85,
+      "sillay": 4.02,
+      "snoot": 3.46
+    }
+  },
+  "american_mink": {
+    "name": "American mink",
+    "scientific_name": "Neogale vison",
+    "image": "https://doggies-galore.github.io/Mustelids/american_mink/assets/photo.webp",
+    "description": "The American mink is a semiaquatic species of mustelid native to North America. It has been introduced to many other parts of the world.",
+    "fun_fact": "When they are happy or content, minks have been known to make a soft purring sound similar to a domestic cat.",
+    "weight": "0.7\u20132.0 kg",
+    "lifespan": "3\u20135 years",
+    "habitat": "Wetlands & Riverbanks",
+    "scores": {
+      "noodle": 4.2,
+      "size": 3.0,
+      "biome": 4.75,
+      "sillay": 5.0,
+      "snoot": 1.86
+    }
+  },
+  "patagonian_weasel": {
+    "name": "Patagonian weasel",
+    "scientific_name": "Lyncodon patagonicus",
+    "image": "https://doggies-galore.github.io/Mustelids/patagonian_weasel/assets/photo.webp",
+    "description": "The Patagonian weasel is a small mustelid native to the Pampas of Argentina and Chile. It is the only species in the genus Lyncodon.",
+    "fun_fact": "They are the only member of their genus, Lyncodon, and were historically kept as 'working pets' by ranchers to control rodent populations.",
+    "weight": "0.225 kg",
+    "lifespan": "1\u20133 years",
+    "habitat": "Pampas & Shrubby Woodlands",
+    "scores": {
+      "noodle": 3.95,
+      "size": 1.83,
+      "biome": 3.52,
+      "sillay": 2.42,
+      "snoot": 3.71
+    }
+  },
+  "giant_otter": {
+    "name": "Giant otter",
+    "scientific_name": "Pteronura brasiliensis",
+    "image": "https://doggies-galore.github.io/Mustelids/giant_otter/assets/photo.webp",
+    "description": "The giant otter is a South American carnivorous mammal. It is the longest member of the mustelid family.",
+    "fun_fact": "Known as the 'river wolf', they are the noisiest otter species and have unique cream-colored throat patches that act like fingerprints for identification.",
+    "weight": "22\u201334 kg",
+    "lifespan": "8\u201313 years",
+    "habitat": "Slow-moving Amazonian Rivers",
+    "scores": {
+      "noodle": 1.06,
+      "size": 4.97,
+      "biome": 4.63,
+      "sillay": 1.31,
+      "snoot": 1.98
+    }
+  },
+  "sumatran_hog_badger": {
+    "name": "Sumatran hog badger",
+    "scientific_name": "Arctonyx hoevenii",
+    "image": "https://doggies-galore.github.io/Mustelids/sumatran_hog_badger/assets/photo.webp",
+    "description": "The Sumatran hog badger is a species of mustelid endemic to the island of Sumatra in Indonesia. It is the smallest of the three species in the genus Arctonyx.",
+    "fun_fact": "They are the smallest species in their genus and are exclusively found on the island of Sumatra, often at high altitudes.",
+    "weight": "7\u201314 kg",
+    "lifespan": "14\u201315 years (captivity)",
+    "habitat": "Montane & Cloud Forests",
+    "scores": {
+      "noodle": 2.11,
+      "size": 4.33,
+      "biome": 2.6,
+      "sillay": 1.25,
+      "snoot": 4.82
+    }
+  },
+  "malayan_weasel": {
+    "name": "Malayan weasel",
+    "scientific_name": "Mustela nudipes",
+    "image": "https://doggies-galore.github.io/Mustelids/malayan_weasel/assets/photo.webp",
+    "description": "The Malayan weasel is a species of weasel native to the Malay Peninsula and the islands of Sumatra and Borneo.",
+    "fun_fact": "Their scientific name, Mustela nudipes, translates to 'bare feet', referring to the fact that their foot pads have no fur at all.",
+    "weight": "1\u20132 kg",
+    "lifespan": "3\u201310 years",
+    "habitat": "Hedgerows & Grassland",
+    "scores": {
+      "noodle": 4.45,
+      "size": 3.06,
+      "biome": 1.74,
+      "sillay": 4.63,
+      "snoot": 3.09
+    }
+  },
+  "japanese_marten": {
+    "name": "Japanese marten",
+    "scientific_name": "Martes melampus",
+    "image": "https://doggies-galore.github.io/Mustelids/japanese_marten/assets/photo.webp",
+    "description": "The Japanese marten is a mammal in the marten genus. It is most closely related to the sable. It is endemic to the islands of Japan.",
+    "fun_fact": "They play a vital role in their ecosystem as seed dispersers, with over 60% of their droppings containing seeds from the fruits they eat.",
+    "weight": "1\u20131.5 kg",
+    "lifespan": "8\u201312 years",
+    "habitat": "Broad-leaved & Mixed Forests",
+    "scores": {
+      "noodle": 3.28,
+      "size": 2.95,
+      "biome": 2.35,
+      "sillay": 4.69,
+      "snoot": 2.66
+    }
+  },
+  "stoat_beringian_ermine": {
+    "name": "Stoat (Beringian ermine)",
+    "scientific_name": "Mustela erminea",
+    "image": "https://doggies-galore.github.io/Mustelids/stoat_beringian_ermine/assets/photo.webp",
+    "description": "The stoat, also known as the ermine or Beringian ermine, is a species of mustelid native to Eurasia and the northern regions of North America.",
+    "fun_fact": "Regardless of whether its coat is brown or winter white, the tip of a stoat's tail always remains black, likely to distract predators.",
+    "weight": "0.1\u20130.45 kg",
+    "lifespan": "1\u20135 years",
+    "habitat": "Hedgerows & Grassland",
+    "scores": {
+      "noodle": 4.63,
+      "size": 1.96,
+      "biome": 1.49,
+      "sillay": 4.94,
+      "snoot": 1.55
+    }
+  },
+  "back_striped_weasel": {
+    "name": "Back-striped weasel",
+    "scientific_name": "Mustela strigidorsa",
+    "image": "https://doggies-galore.github.io/Mustelids/back_striped_weasel/assets/photo.webp",
+    "description": "The back-striped weasel, also known as the stripe-backed weasel, is a species of mustelid found in Southeast Asia.",
+    "fun_fact": "They are characterized by a narrow, silvery stripe running down the entire length of their back, which is mirrored by a yellowish streak on their belly.",
+    "weight": "0.7\u20132.0 kg",
+    "lifespan": "4\u20137 years",
+    "habitat": "Hedgerows & Grassland",
+    "scores": {
+      "noodle": 4.38,
+      "size": 3.0,
+      "biome": 3.77,
+      "sillay": 4.51,
+      "snoot": 4.14
+    }
+  },
+  "beech_marten": {
+    "name": "Beech marten",
+    "scientific_name": "Martes foina",
+    "image": "https://doggies-galore.github.io/Mustelids/beech_marten/assets/photo.webp",
+    "description": "The beech marten, also known as the stone marten, house marten or white-breasted marten, is a species of marten native to much of Europe and Central Asia.",
+    "fun_fact": "They have a notorious reputation for entering parked vehicle engine bays and chewing on cables and hoses, a behavior often called 'marten damage'.",
+    "weight": "1.1\u20132.5 kg",
+    "lifespan": "3\u201310 years",
+    "habitat": "Rocky Mountains & Deciduous Woods",
+    "scores": {
+      "noodle": 3.89,
+      "size": 3.18,
+      "biome": 2.91,
+      "sillay": 3.83,
+      "snoot": 3.28
+    }
+  },
+  "haida_ermine": {
+    "name": "Haida ermine",
+    "scientific_name": "Mustela haidarum",
+    "image": "https://doggies-galore.github.io/Mustelids/haida_ermine/assets/photo.webp",
+    "description": "The Haida ermine is a species of mustelid endemic to the islands of the Haida Gwaii archipelago in British Columbia and the Alexander Archipelago in Alaska.",
+    "fun_fact": "They were only recognized as a distinct species in 2021 after being isolated on the Haida Gwaii archipelago for approximately 300,000 years.",
+    "weight": "0.1\u20130.15 kg",
+    "lifespan": "< 2 years",
+    "habitat": "Hedgerows & Grassland",
+    "scores": {
+      "noodle": 4.75,
+      "size": 1.45,
+      "biome": 3.03,
+      "sillay": 4.75,
+      "snoot": 2.17
+    }
+  },
+  "honey_badger": {
+    "name": "Honey badger",
+    "scientific_name": "Mellivora capensis",
+    "image": "https://doggies-galore.github.io/Mustelids/honey_badger/assets/photo.webp",
+    "description": "The honey badger, also known as the ratel, is a mammal widely distributed in Africa, Southwest Asia, and the Indian subcontinent. Because of its wide range and occurrence in many different habitats, it is listed as Least Concern on the IUCN Red List.",
+    "fun_fact": "They have incredibly thick, loose skin that allows them to twist and turn inside it to bite back at an attacker even if they are caught in its jaws.",
+    "weight": "5\u201316 kg",
+    "lifespan": "7\u20138 years",
+    "habitat": "Arid Savanna & Grasslands",
+    "scores": {
+      "noodle": 3.34,
+      "size": 4.33,
+      "biome": 1.62,
+      "sillay": 1.06,
+      "snoot": 4.63
+    }
+  },
+  "yellow_throated_marten": {
+    "name": "Yellow-throated marten",
+    "scientific_name": "Martes flavigula",
+    "image": "https://doggies-galore.github.io/Mustelids/yellow_throated_marten/assets/photo.webp",
+    "description": "The yellow-throated marten, also known as the kharza, is a marten species native to Asia. It is listed as Least Concern on the IUCN Red List due to its wide distribution.",
+    "fun_fact": "They are the largest marten species in the Old World and are sometimes seen hunting in small family groups to take down larger prey like musk deer.",
+    "weight": "1.2\u20135.7 kg",
+    "lifespan": "7\u201310 years",
+    "habitat": "Subtropical & Mixed Forests",
+    "scores": {
+      "noodle": 4.02,
+      "size": 3.61,
+      "biome": 1.92,
+      "sillay": 4.57,
+      "snoot": 2.29
+    }
+  },
+  "long_tailed_weasel": {
+    "name": "Long-tailed weasel",
+    "scientific_name": "Neogale frenata",
+    "image": "https://doggies-galore.github.io/Mustelids/long_tailed_weasel/assets/photo.webp",
+    "description": "The long-tailed weasel, also known as the bridled weasel or big over-and-under, is a species of mustelid native to North America.",
+    "fun_fact": "Unlike skunks which spray, long-tailed weasels drag and rub their bodies against surfaces to mark territory with their musky odor.",
+    "weight": "0.07\u20130.45 kg",
+    "lifespan": "3\u20137 years",
+    "habitat": "Hedgerows & Grassland",
+    "scores": {
+      "noodle": 4.88,
+      "size": 1.93,
+      "biome": 2.54,
+      "sillay": 3.89,
+      "snoot": 1.68
+    }
+  },
+  "sea_otter": {
+    "name": "Sea otter",
+    "scientific_name": "Enhydra lutris",
+    "image": "https://doggies-galore.github.io/Mustelids/sea_otter/assets/photo.webp",
+    "description": "The sea otter is a marine mammal native to the coasts of the northern and eastern North Pacific Ocean.",
+    "fun_fact": "Sea otters have the densest fur of any animal, with up to one million hairs per square inch; they lack blubber and rely entirely on this fur to stay warm.",
+    "weight": "14\u201345 kg",
+    "lifespan": "10\u201315 years",
+    "habitat": "Nearshore Kelp Forests",
+    "scores": {
+      "noodle": 1.12,
+      "size": 5.0,
+      "biome": 4.82,
+      "sillay": 3.58,
+      "snoot": 1.06
+    }
+  },
+  "colombian_weasel": {
+    "name": "Colombian weasel",
+    "scientific_name": "Neogale felipei",
+    "image": "https://doggies-galore.github.io/Mustelids/colombian_weasel/assets/photo.webp",
+    "description": "The Colombian weasel, also known as Don Felipe's weasel, is a very rare species of mustelid found in Colombia and Ecuador.",
+    "fun_fact": "They are considered the rarest carnivore in South America and have noticeable webbing between their toes, suggesting a semi-aquatic lifestyle.",
+    "weight": "0.12\u20130.15 kg",
+    "lifespan": "1\u20136 years",
+    "habitat": "Montane Riparian Cloud Forests",
+    "scores": {
+      "noodle": 4.08,
+      "size": 1.5,
+      "biome": 1.8,
+      "sillay": 4.14,
+      "snoot": 3.15
+    }
+  },
+  "asian_badger": {
+    "name": "Asian badger",
+    "scientific_name": "Meles leucurus",
+    "image": "https://doggies-galore.github.io/Mustelids/asian_badger/assets/photo.webp",
+    "description": "The Asian badger, also known as the sand badger, is a species of badger native to Asia. It is widely distributed from the Volga River in the west to the Korean Peninsula in the east.",
+    "fun_fact": "Unlike many other badgers, they often hibernate in family groups, with adults sharing their dens with the previous year's cubs.",
+    "weight": "3.5\u20139 kg",
+    "lifespan": "5\u201310 years",
+    "habitat": "Steppes, Forests & Tundra Edges",
+    "scores": {
+      "noodle": 2.29,
+      "size": 3.99,
+      "biome": 1.98,
+      "sillay": 2.29,
+      "snoot": 3.34
+    }
+  },
+  "bornean_ferret_badger": {
+    "name": "Bornean ferret-badger",
+    "scientific_name": "Melogale everetti",
+    "image": "https://doggies-galore.github.io/Mustelids/bornean_ferret_badger/assets/photo.webp",
+    "description": "The Bornean ferret-badger, also known as Everett's ferret-badger or the Kinabalu ferret-badger, is a small mustelid endemic to the island of Borneo. It is listed as Endangered on the IUCN Red List due to its restricted range and habitat loss.",
+    "fun_fact": "They cleverly repurpose abandoned burrows created by other animals rather than digging their own, despite having strong claws.",
+    "weight": "1\u20133 kg",
+    "lifespan": "< 5 years",
+    "habitat": "Tropical & Subtropical Forests",
+    "scores": {
+      "noodle": 1.74,
+      "size": 3.25,
+      "biome": 3.4,
+      "sillay": 1.49,
+      "snoot": 4.51
+    }
+  },
+  "american_ermine": {
+    "name": "American ermine",
+    "scientific_name": "Mustela richardsonii",
+    "image": "https://doggies-galore.github.io/Mustelids/american_ermine/assets/photo.webp",
+    "description": "The American ermine is a species of mustelid native to North America. It was formerly considered a subspecies of the stoat.",
+    "fun_fact": "They exhibit a reproductive strategy called embryonic diapause, where the embryo remains dormant for months so the young are born in spring.",
+    "weight": "0.025\u20130.18 kg",
+    "lifespan": "1\u20132 years",
+    "habitat": "Hedgerows & Grassland",
+    "scores": {
+      "noodle": 4.69,
+      "size": 1.32,
+      "biome": 2.72,
+      "sillay": 3.95,
+      "snoot": 1.92
+    }
+  },
+  "neotropical_otter": {
+    "name": "Neotropical otter",
+    "scientific_name": "Lontra longicaudis",
+    "image": "https://doggies-galore.github.io/Mustelids/neotropical_otter/assets/photo.webp",
+    "description": "The neotropical otter, also known as the neotropical river otter, is an otter species found in Central America, South America and the island of Trinidad.",
+    "fun_fact": "They are intelligent tool users and have been observed using rocks to break open the shells of crustaceans and mollusks.",
+    "weight": "5\u201315 kg",
+    "lifespan": "10\u201315 years",
+    "habitat": "Freshwater Rivers & Wetlands",
+    "scores": {
+      "noodle": 1.31,
+      "size": 4.3,
+      "biome": 4.69,
+      "sillay": 3.65,
+      "snoot": 1.49
+    }
+  },
+  "least_weasel": {
+    "name": "Least weasel",
+    "scientific_name": "Mustela nivalis",
+    "image": "https://doggies-galore.github.io/Mustelids/least_weasel/assets/photo.webp",
+    "description": "The least weasel is the smallest member of the genus Mustela, the family Mustelidae and the order Carnivora. It is native to Eurasia, North America and North Africa.",
+    "fun_fact": "They are the smallest carnivorous mammals in the world and must consume up to 60% of their body weight every day to survive.",
+    "weight": "0.025\u20130.1 kg",
+    "lifespan": "< 1 year",
+    "habitat": "Hedgerows & Grassland",
+    "scores": {
+      "noodle": 4.51,
+      "size": 1.0,
+      "biome": 1.68,
+      "sillay": 3.77,
+      "snoot": 1.31
+    }
+  },
+  "wolverine": {
+    "name": "Wolverine",
+    "scientific_name": "Gulo gulo",
+    "image": "https://doggies-galore.github.io/Mustelids/wolverine/assets/photo.webp",
+    "description": "The wolverine, also referred to as the glutton, carcajou, or quickhatch, is the largest terrestrial member of the family Mustelidae. It is a muscular carnivore and a solitary animal.",
+    "fun_fact": "Their paws act like natural snowshoes by spreading to twice their size when they hit the ground, allowing them to travel easily over deep snow.",
+    "weight": "8\u201318 kg",
+    "lifespan": "5\u201310 years",
+    "habitat": "Boreal Forest & Arctic Tundra",
+    "scores": {
+      "noodle": 1.0,
+      "size": 4.47,
+      "biome": 4.2,
+      "sillay": 1.0,
+      "snoot": 3.77
+    }
+  },
+  "yellow_bellied_weasel": {
+    "name": "Yellow-bellied weasel",
+    "scientific_name": "Mustela kathiah",
+    "image": "https://doggies-galore.github.io/Mustelids/yellow_bellied_weasel/assets/photo.webp",
+    "description": "The yellow-bellied weasel is a species of mustelid found in the forests of central and eastern Asia. It is known for its distinctive yellow underbelly.",
+    "fun_fact": "Historically in Nepal, they were kept by humans to control rodent populations and were even trained to attack larger animals for sport.",
+    "weight": "1.5 kg",
+    "lifespan": "3\u20134 years",
+    "habitat": "Hedgerows & Grassland",
+    "scores": {
+      "noodle": 4.94,
+      "size": 3.06,
+      "biome": 1.31,
+      "sillay": 3.4,
+      "snoot": 4.02
+    }
+  },
+  "congo_clawless_otter": {
+    "name": "Congo clawless otter",
+    "scientific_name": "Aonyx congicus",
+    "image": "https://doggies-galore.github.io/Mustelids/congo_clawless_otter/assets/photo.webp",
+    "description": "The Congo clawless otter is a species of otter in the family Mustelidae. It is found in Cameroon, Congo, Democratic Republic of the Congo, Equatorial Guinea, and Gabon.",
+    "fun_fact": "They are considered the most terrestrial of all otter species and spend a significant amount of time exploring shores and land compared to their relatives.",
+    "weight": "10\u201325 kg",
+    "lifespan": "10\u201315 years",
+    "habitat": "Freshwater Rivers & Wetlands",
+    "scores": {
+      "noodle": 1.55,
+      "size": 4.66,
+      "biome": 4.26,
+      "sillay": 1.43,
+      "snoot": 3.65
+    }
+  },
+  "nilgiri_marten": {
+    "name": "Nilgiri marten",
+    "scientific_name": "Martes gwatkinsii",
+    "image": "https://doggies-galore.github.io/Mustelids/nilgiri_marten/assets/photo.webp",
+    "description": "The Nilgiri marten is the only species of marten found in southern India. It is found in the hills of the Nilgiris and parts of the Western Ghats.",
+    "fun_fact": "They are the only species of marten found in India and are endemic exclusively to the Western Ghats mountain range.",
+    "weight": "2.1 kg",
+    "lifespan": "12\u201315 years",
+    "habitat": "Moist Shola Rainforests",
+    "scores": {
+      "noodle": 2.66,
+      "size": 3.28,
+      "biome": 3.71,
+      "sillay": 1.98,
+      "snoot": 2.35
+    }
+  },
+  "pacific_marten": {
+    "name": "Pacific marten",
+    "scientific_name": "Martes caurina",
+    "image": "https://doggies-galore.github.io/Mustelids/pacific_marten/assets/photo.webp",
+    "description": "The Pacific marten is a species of North American mammal in the family Mustelidae. It is found in the western United States and southwestern Canada.",
+    "fun_fact": "They are capable of descending tree trunks headfirst by rotating their hind limbs, a rare ability among mammals.",
+    "weight": "0.75\u20131.8 kg",
+    "lifespan": "4\u20136 years",
+    "habitat": "Coniferous & Mixed Forests",
+    "scores": {
+      "noodle": 2.85,
+      "size": 2.96,
+      "biome": 1.12,
+      "sillay": 4.2,
+      "snoot": 2.11
+    }
+  },
+  "spotted_necked_otter": {
+    "name": "Spotted-necked otter",
+    "scientific_name": "Hydrictis maculicollis",
+    "image": "https://doggies-galore.github.io/Mustelids/spotted_necked_otter/assets/photo.webp",
+    "description": "The spotted-necked otter, or speckle-throated otter, is a species of otter native to sub-Saharan Africa.",
+    "fun_fact": "Each individual has a unique pattern of creamy-white blotches on its throat and chest, which researchers use to identify them in the wild.",
+    "weight": "3\u20136 kg",
+    "lifespan": "8 years",
+    "habitat": "Freshwater Rivers & Wetlands",
+    "scores": {
+      "noodle": 1.37,
+      "size": 3.78,
+      "biome": 4.94,
+      "sillay": 4.88,
+      "snoot": 1.25
+    }
+  },
+  "european_badger": {
+    "name": "European badger",
+    "scientific_name": "Meles meles",
+    "image": "https://doggies-galore.github.io/Mustelids/european_badger/assets/photo.webp",
+    "description": "The European badger is a badger species native to almost all of Europe. It is a powerful animal with a small head, a stocky body, small black eyes and a short tail.",
+    "fun_fact": "They live in communal burrow systems called setts that can be hundreds of years old and are passed down through many generations of the same clan.",
+    "weight": "7\u201317 kg",
+    "lifespan": "3\u20138 years",
+    "habitat": "Deciduous Woodlands & Pastures",
+    "scores": {
+      "noodle": 3.52,
+      "size": 4.42,
+      "biome": 3.58,
+      "sillay": 2.6,
+      "snoot": 4.08
+    }
+  },
+  "marbled_polecat": {
+    "name": "Marbled polecat",
+    "scientific_name": "Vormela peregusna",
+    "image": "https://doggies-galore.github.io/Mustelids/marbled_polecat/assets/photo.webp",
+    "description": "The marbled polecat is a small mustelid native to southeast Europe and parts of Asia. It is known for its striking, multi-colored coat.",
+    "fun_fact": "They have a unique 'marbled' coat of yellow, white, and brown spots, and when threatened, they fluff up their fur and stand on their hind legs to look larger.",
+    "weight": "0.3\u20130.7 kg",
+    "lifespan": "8\u201312 years",
+    "habitat": "Arid Steppes & Semi-deserts",
+    "scores": {
+      "noodle": 3.77,
+      "size": 2.35,
+      "biome": 1.0,
+      "sillay": 2.85,
+      "snoot": 2.91
+    }
+  },
+  "greater_grison": {
+    "name": "Greater grison",
+    "scientific_name": "Galictis vittata",
+    "image": "https://doggies-galore.github.io/Mustelids/greater_grison/assets/photo.webp",
+    "description": "The greater grison is a species of mustelid found in Central and South America. It is a medium-sized animal with a grizzled grey coat and a black underside.",
+    "fun_fact": "When hunting, they move in a zigzag pattern and frequently pause to raise their heads above tall grass to sniff the air and survey their surroundings.",
+    "weight": "1.5\u20133.8 kg",
+    "lifespan": "10\u201312 years",
+    "habitat": "Tropical Forests & Steppe",
+    "scores": {
+      "noodle": 1.62,
+      "size": 3.43,
+      "biome": 2.78,
+      "sillay": 3.03,
+      "snoot": 4.32
+    }
+  },
+  "siberian_weasel": {
+    "name": "Siberian weasel",
+    "scientific_name": "Mustela sibirica",
+    "image": "https://doggies-galore.github.io/Mustelids/siberian_weasel/assets/photo.webp",
+    "description": "The Siberian weasel, also known as the kolinsky, is a medium-sized species of mustelid native to Asia.",
+    "fun_fact": "The famous 'Kolinsky sable-hair' artist brushes are actually made from the winter fur of the male Siberian weasel, not from actual sables.",
+    "weight": "0.36\u20130.82 kg",
+    "lifespan": "2.1 years",
+    "habitat": "Taiga, River Valleys & Wetlands",
+    "scores": {
+      "noodle": 3.83,
+      "size": 2.46,
+      "biome": 3.89,
+      "sillay": 4.26,
+      "snoot": 2.23
+    }
+  },
+  "steppe_polecat": {
+    "name": "Steppe polecat",
+    "scientific_name": "Mustela eversmanii",
+    "image": "https://doggies-galore.github.io/Mustelids/steppe_polecat/assets/photo.webp",
+    "description": "The steppe polecat, also known as the white or masked polecat, is a species of mustelid native to Central and Eastern Europe and Central Asia.",
+    "fun_fact": "They perform a 'war dance' to disorient prey, leaping and jumping around while making soft clucking sounds before they attack.",
+    "weight": "0.7\u20132.05 kg",
+    "lifespan": "Up to 5 years",
+    "habitat": "Dry Scrub & Farmland",
+    "scores": {
+      "noodle": 2.97,
+      "size": 3.01,
+      "biome": 1.43,
+      "sillay": 4.08,
+      "snoot": 4.2
+    }
+  },
+  "chinese_ferret_badger": {
+    "name": "Chinese ferret-badger",
+    "scientific_name": "Melogale moschata",
+    "image": "https://doggies-galore.github.io/Mustelids/chinese_ferret_badger/assets/photo.webp",
+    "description": "The Chinese ferret-badger, also known as the small-toothed ferret-badger, is a small mustelid widely distributed in Southeast Asia and southern China. It is known for its distinctive facial mask and agile climbing abilities.",
+    "fun_fact": "They are agile climbers that often sleep in tree branches and are encouraged by farmers to stay near agricultural areas to control pests.",
+    "weight": "1\u20133 kg",
+    "lifespan": "< 10 years",
+    "habitat": "Tropical & Subtropical Forests",
+    "scores": {
+      "noodle": 3.09,
+      "size": 3.25,
+      "biome": 3.34,
+      "sillay": 3.52,
+      "snoot": 4.45
+    }
+  },
+  "saharan_striped_polecat": {
+    "name": "Saharan striped polecat",
+    "scientific_name": "Ictonyx libycus",
+    "image": "https://doggies-galore.github.io/Mustelids/saharan_striped_polecat/assets/photo.webp",
+    "description": "The Saharan striped polecat, also known as the Saharan striped weasel, is a species of mustelid found in North Africa and parts of the Sahel region.",
+    "fun_fact": "They have fur on the undersides of their paws, which is an adaptation to help them walk and hunt in sandy desert environments.",
+    "weight": "0.24\u20130.8 kg",
+    "lifespan": "5\u20136 years",
+    "habitat": "Dry Scrub & Farmland",
+    "scores": {
+      "noodle": 2.54,
+      "size": 2.38,
+      "biome": 1.55,
+      "sillay": 2.97,
+      "snoot": 4.26
+    }
+  },
+  "american_marten": {
+    "name": "American marten",
+    "scientific_name": "Martes americana",
+    "image": "https://doggies-galore.github.io/Mustelids/american_marten/assets/photo.webp",
+    "description": "The American marten is a North American mammal, a member of the family Mustelidae. It is also sometimes referred to as the American pine marten.",
+    "fun_fact": "A group of martens is collectively known as a richness.",
+    "weight": "0.5\u20131.6 kg",
+    "lifespan": "12\u201317 years",
+    "habitat": "Coniferous & Mixed Forests",
+    "scores": {
+      "noodle": 4.26,
+      "size": 2.83,
+      "biome": 2.66,
+      "sillay": 2.48,
+      "snoot": 1.18
+    }
+  },
+  "african_clawless_otter": {
+    "name": "African clawless otter",
+    "scientific_name": "Aonyx capensis",
+    "image": "https://doggies-galore.github.io/Mustelids/african_clawless_otter/assets/photo.webp",
+    "description": "The African clawless otter, also known as the Cape clawless otter, is the second-largest freshwater species of otter. It is found in much of sub-Saharan Africa.",
+    "fun_fact": "They are the second-largest freshwater otter and have incredibly dexterous front paws that are almost entirely clawless and unwebbed, allowing them to feel for prey in the mud.",
+    "weight": "12\u201321 kg",
+    "lifespan": "10\u201312 years",
+    "habitat": "Freshwater Rivers & Wetlands",
+    "scores": {
+      "noodle": 1.68,
+      "size": 4.62,
+      "biome": 4.45,
+      "sillay": 2.72,
+      "snoot": 1.74
+    }
+  },
+  "sable": {
+    "name": "Sable",
+    "scientific_name": "Martes zibellina",
+    "image": "https://doggies-galore.github.io/Mustelids/sable/assets/photo.webp",
+    "description": "The sable is a species of marten, a small carnivorous mammal inhabiting forest environments, primarily in Russia from the Ural Mountains throughout Siberia, and northern Mongolia.",
+    "fun_fact": "Their fur is unique because it feels smooth regardless of which direction you stroke it, unlike most animals where the fur has a distinct 'grain'.",
+    "weight": "0.7\u20131.8 kg",
+    "lifespan": "Up to 18 years",
+    "habitat": "Coniferous & Mixed Forests",
+    "scores": {
+      "noodle": 1.18,
+      "size": 2.95,
+      "biome": 2.29,
+      "sillay": 4.32,
+      "snoot": 2.54
+    }
+  },
+  "southern_river_otter": {
+    "name": "Southern river otter",
+    "scientific_name": "Lontra provocax",
+    "image": "https://doggies-galore.github.io/Mustelids/southern_river_otter/assets/photo.webp",
+    "description": "The southern river otter is a species of otter that lives in Chile and Argentina. It is also known as the huill\u00edn.",
+    "fun_fact": "In Chile, they are known as the 'Huill\u00edn' and have the smallest geographical range of all otter species, living in both freshwater and marine habitats.",
+    "weight": "5\u201310 kg",
+    "lifespan": "3\u20135 years",
+    "habitat": "Freshwater Rivers & Wetlands",
+    "scores": {
+      "noodle": 2.91,
+      "size": 4.11,
+      "biome": 4.88,
+      "sillay": 3.71,
+      "snoot": 1.12
+    }
+  },
+  "european_mink": {
+    "name": "European mink",
+    "scientific_name": "Mustela lutreola",
+    "image": "https://doggies-galore.github.io/Mustelids/european_mink/assets/photo.webp",
+    "description": "The European mink is a semiaquatic species of mustelid native to Europe. It is one of the most endangered mammals in the world.",
+    "fun_fact": "Unlike the American mink, they have a distinctive white upper lip that forms a small mask around their mouth.",
+    "weight": "0.5\u20130.9 kg",
+    "lifespan": "6\u201310 years",
+    "habitat": "Wetlands & Riverbanks",
+    "scores": {
+      "noodle": 3.46,
+      "size": 2.57,
+      "biome": 4.38,
+      "sillay": 2.91,
+      "snoot": 3.89
+    }
+  },
+  "marine_otter": {
+    "name": "Marine otter",
+    "scientific_name": "Lontra felina",
+    "image": "https://doggies-galore.github.io/Mustelids/marine_otter/assets/photo.webp",
+    "description": "The marine otter is a rare and relatively unknown South American mammal of the weasel family. It is found along the Pacific coast of South America.",
+    "fun_fact": "Locally known as the 'chungungo', they are one of the few otter species adapted to live in marine environments along the Pacific coast of South America.",
+    "weight": "3\u20136 kg",
+    "lifespan": "10\u201315 years",
+    "habitat": "Coastal Marine",
+    "scores": {
+      "noodle": 3.4,
+      "size": 3.78,
+      "biome": 5.0,
+      "sillay": 1.8,
+      "snoot": 1.37
+    }
+  },
+  "north_american_river_otter": {
+    "name": "North American river otter",
+    "scientific_name": "Lontra canadensis",
+    "image": "https://doggies-galore.github.io/Mustelids/north_american_river_otter/assets/photo.webp",
+    "description": "The North American river otter, also known as the northern river otter or common otter, is a semiaquatic mammal endemic to the North American continent.",
+    "fun_fact": "They are famous for their playful behavior, such as sliding down mud or snow banks, which helps them strengthen social bonds and practice hunting skills.",
+    "weight": "5\u201314 kg",
+    "lifespan": "8\u201313 years",
+    "habitat": "Freshwater Rivers & Wetlands",
+    "scores": {
+      "noodle": 1.25,
+      "size": 4.26,
+      "biome": 4.51,
+      "sillay": 2.23,
+      "snoot": 1.43
+    }
+  },
+  "javan_ferret_badger": {
+    "name": "Javan ferret-badger",
+    "scientific_name": "Melogale orientalis",
+    "image": "https://doggies-galore.github.io/Mustelids/javan_ferret_badger/assets/photo.webp",
+    "description": "The Javan ferret-badger is a small mustelid endemic to the Indonesian islands of Java and Bali. It is a secretive, nocturnal animal found in various forest types.",
+    "fun_fact": "They have partially webbed toes and specialized ridges on their foot pads that help them scramble through trees and bushes in the forests of Java and Bali.",
+    "weight": "1\u20132 kg",
+    "lifespan": "5\u20138 years",
+    "habitat": "Tropical & Subtropical Forests",
+    "scores": {
+      "noodle": 2.35,
+      "size": 3.06,
+      "biome": 3.22,
+      "sillay": 2.66,
+      "snoot": 2.72
+    }
+  },
+  "tayra": {
+    "name": "Tayra",
+    "scientific_name": "Eira barbara",
+    "image": "https://doggies-galore.github.io/Mustelids/tayra/assets/photo.webp",
+    "description": "The tayra is an omnivorous animal from the weasel family, native to the Americas. It is the only species in the genus Eira and is found from southern Mexico to northern Argentina and on the island of Trinidad.",
+    "fun_fact": "They have been observed picking unripe plantains and hiding them to ripen, which may be evidence of future planning behavior.",
+    "weight": "2.7\u20138 kg",
+    "lifespan": "Unknown (Wild)",
+    "habitat": "Tropical Forests & Steppe",
+    "scores": {
+      "noodle": 2.05,
+      "size": 3.89,
+      "biome": 3.83,
+      "sillay": 1.62,
+      "snoot": 2.97
+    }
+  },
+  "greater_hog_badger": {
+    "name": "Greater hog badger",
+    "scientific_name": "Arctonyx collaris",
+    "image": "https://doggies-galore.github.io/Mustelids/greater_hog_badger/assets/photo.webp",
+    "description": "The greater hog badger is a mustelid native to Southeast Asia. It is listed as Vulnerable on the IUCN Red List because the population is thought to be declining due to habitat loss and hunting.",
+    "fun_fact": "They are among the largest terrestrial mustelids and are capable of digging complex tunnel systems that serve as essential habitat for many other small animals.",
+    "weight": "7\u201314 kg",
+    "lifespan": "8\u201312 years",
+    "habitat": "Lowland & Hilly Mixed Forests",
+    "scores": {
+      "noodle": 3.03,
+      "size": 4.33,
+      "biome": 3.15,
+      "sillay": 1.18,
+      "snoot": 4.94
+    }
+  },
+  "formosan_ferret_badger": {
+    "name": "Formosan ferret-badger",
+    "scientific_name": "Melogale subaurantiaca",
+    "image": "https://doggies-galore.github.io/Mustelids/formosan_ferret_badger/assets/photo.webp",
+    "description": "The Formosan ferret-badger is a species of mustelid endemic to the island of Taiwan. It is nocturnal and omnivorous, feeding on insects, earthworms, and fruit.",
+    "fun_fact": "Once considered a subspecies of the Chinese ferret-badger, they were reclassified as a distinct species in 2019 following a genetic study.",
+    "weight": "< 2 kg",
+    "lifespan": "< 10 years",
+    "habitat": "Tropical & Subtropical Forests",
+    "scores": {
+      "noodle": 3.65,
+      "size": 3.25,
+      "biome": 3.46,
+      "sillay": 1.68,
+      "snoot": 4.38
+    }
+  },
+  "european_polecat": {
+    "name": "European polecat",
+    "scientific_name": "Mustela putorius",
+    "image": "https://doggies-galore.github.io/Mustelids/european_polecat/assets/photo.webp",
+    "description": "The European polecat, also known as the common forest polecat, is a species of mustelid native to western Eurasia and North Africa.",
+    "fun_fact": "They are the wild ancestors of the domestic ferret and were once nicknamed 'chicken-cats' due to their habit of raiding poultry coops.",
+    "weight": "0.4\u20131.7 kg",
+    "lifespan": "5\u20136 years",
+    "habitat": "Dry Scrub & Farmland",
+    "scores": {
+      "noodle": 2.72,
+      "size": 2.83,
+      "biome": 2.11,
+      "sillay": 3.28,
+      "snoot": 2.42
+    }
+  },
+  "black_footed_ferret": {
+    "name": "Black-footed ferret",
+    "scientific_name": "Mustela nigripes",
+    "image": "https://doggies-galore.github.io/Mustelids/black_footed_ferret/assets/photo.webp",
+    "description": "The black-footed ferret, also known as the American polecat or prairie dog hunter, is a species of mustelid native to central North America.",
+    "fun_fact": "They were once thought to be extinct until a small population was rediscovered in Wyoming in 1981; all living individuals today descend from just seven ancestors.",
+    "weight": "0.6\u20131.4 kg",
+    "lifespan": "1\u20134 years",
+    "habitat": "Shortgrass Prairie",
+    "scores": {
+      "noodle": 3.22,
+      "size": 2.8,
+      "biome": 1.25,
+      "sillay": 2.35,
+      "snoot": 3.22
+    }
+  },
+  "northern_hog_badger": {
+    "name": "Northern hog badger",
+    "scientific_name": "Arctonyx albogularis",
+    "image": "https://doggies-galore.github.io/Mustelids/northern_hog_badger/assets/photo.webp",
+    "description": "The northern hog badger is a mustelid species native to South and East Asia. It was formerly considered a subspecies of the greater hog badger.",
+    "fun_fact": "They have a highly sensitive, pig-like snout that they use to root through soil for earthworms and insects.",
+    "weight": "7\u201314 kg",
+    "lifespan": "14 years (captivity)",
+    "habitat": "Temperate Forests & Grasslands",
+    "scores": {
+      "noodle": 1.8,
+      "size": 4.33,
+      "biome": 2.05,
+      "sillay": 1.92,
+      "snoot": 4.88
+    }
+  },
+  "indonesian_mountain_weasel": {
+    "name": "Indonesian mountain weasel",
+    "scientific_name": "Mustela lutreolina",
+    "image": "https://doggies-galore.github.io/Mustelids/indonesian_mountain_weasel/assets/photo.webp",
+    "description": "The Indonesian mountain weasel is a species of weasel that lives on the islands of Java and Sumatra in Indonesia.",
+    "fun_fact": "They are among the rarest weasels in the world, endemic to the high-altitude tropical rainforests of Java and Sumatra, and very few specimens have ever been studied.",
+    "weight": "0.29\u20130.34 kg",
+    "lifespan": "7\u201310 years",
+    "habitat": "Alpine Scree & Grassland",
+    "scores": {
+      "noodle": 5.0,
+      "size": 2.05,
+      "biome": 2.97,
+      "sillay": 3.15,
+      "snoot": 4.57
+    }
+  },
+  "eurasian_otter": {
+    "name": "Eurasian otter",
+    "scientific_name": "Lutra lutra",
+    "image": "https://doggies-galore.github.io/Mustelids/eurasian_otter/assets/photo.webp",
+    "description": "The Eurasian otter, also known as the European otter, Eurasian river otter, common otter, or Old World otter, is a semiaquatic mammal native to Eurasia.",
+    "fun_fact": "Their droppings, known as 'spraint', have a surprisingly pleasant smell that is often compared to jasmine tea or mown hay.",
+    "weight": "7\u201312 kg",
+    "lifespan": "3\u20134 years",
+    "habitat": "Freshwater Rivers & Wetlands",
+    "scores": {
+      "noodle": 2.23,
+      "size": 4.26,
+      "biome": 4.57,
+      "sillay": 2.17,
+      "snoot": 2.05
+    }
+  },
+  "lesser_grison": {
+    "name": "Lesser grison",
+    "scientific_name": "Galictis cuja",
+    "image": "https://doggies-galore.github.io/Mustelids/lesser_grison/assets/photo.webp",
+    "description": "The lesser grison is a species of mustelid found in South America. It is a small, slender animal with a long neck and short legs.",
+    "fun_fact": "They have a habit of traveling in small family groups that move together in a single-file line through the undergrowth.",
+    "weight": "1\u20132.5 kg",
+    "lifespan": "10+ years (captivity)",
+    "habitat": "Tropical Forests & Steppe",
+    "scores": {
+      "noodle": 2.78,
+      "size": 3.16,
+      "biome": 4.14,
+      "sillay": 1.86,
+      "snoot": 3.03
+    }
+  },
+  "american_badger": {
+    "name": "American badger",
+    "scientific_name": "Taxidea taxus",
+    "image": "https://doggies-galore.github.io/Mustelids/american_badger/assets/photo.webp",
+    "description": "The American badger is a North American badger, somewhat similar in appearance to the European badger, although not closely related. It is found in the western and central United States, northern Mexico, and south-central Canada to certain areas of southwestern British Columbia.",
+    "fun_fact": "They occasionally hunt in short-term alliances with coyotes, where the badger digs prey out of burrows while the coyote catches any that escape to the surface.",
+    "weight": "4\u201312 kg",
+    "lifespan": "4\u201310 years",
+    "habitat": "Woodlands & Open Fields",
+    "scores": {
+      "noodle": 1.86,
+      "size": 4.15,
+      "biome": 2.23,
+      "sillay": 2.11,
+      "snoot": 4.69
+    }
+  },
+  "asian_small_clawed_otter": {
+    "name": "Asian small-clawed otter",
+    "scientific_name": "Aonyx cinereus",
+    "image": "https://doggies-galore.github.io/Mustelids/asian_small_clawed_otter/assets/photo.webp",
+    "description": "The Asian small-clawed otter, also known as the oriental small-clawed otter, is the smallest otter species in the world, native to South and Southeast Asia.",
+    "fun_fact": "They are the smallest of all 13 otter species and form monogamous pairs that often stay together for life, with both parents helping to raise the pups.",
+    "weight": "1\u20135.5 kg",
+    "lifespan": "10\u201316 years",
+    "habitat": "Mangrove Swamps & Rice Paddies",
+    "scores": {
+      "noodle": 1.92,
+      "size": 3.57,
+      "biome": 3.95,
+      "sillay": 3.09,
+      "snoot": 1.62
+    }
+  },
+  "burmese_ferret_badger": {
+    "name": "Burmese ferret-badger",
+    "scientific_name": "Melogale personata",
+    "image": "https://doggies-galore.github.io/Mustelids/burmese_ferret_badger/assets/photo.webp",
+    "description": "The Burmese ferret-badger, also known as the large-toothed ferret-badger, is a species of mustelid found in Southeast Asia, from Nepal and northeastern India to Indochina.",
+    "fun_fact": "Each individual has a unique pattern of black and white patches on its face, making them easy to identify from one another.",
+    "weight": "1\u20133 kg",
+    "lifespan": "< 10 years",
+    "habitat": "Tropical & Subtropical Forests",
+    "scores": {
+      "noodle": 3.71,
+      "size": 3.25,
+      "biome": 3.09,
+      "sillay": 1.55,
+      "snoot": 4.75
+    }
+  },
+  "domestic_ferret": {
+    "name": "Domestic ferret",
+    "scientific_name": "Mustela furo",
+    "image": "https://doggies-galore.github.io/Mustelids/domestic_ferret/assets/photo.webp",
+    "description": "The ferret is the domesticated form of the European polecat, a mammal belonging to the same genus as the weasel, Mustela, in the family Mustelidae.",
+    "fun_fact": "The name 'ferret' is derived from the Latin word furittus, meaning 'little thief', referring to their habit of stealing and stashing small items.",
+    "weight": "0.5\u20132.0 kg",
+    "lifespan": "5\u20138 years",
+    "habitat": "Domesticated",
+    "scores": {
+      "noodle": 2.48,
+      "size": 2.95,
+      "biome": 1.37,
+      "sillay": 3.22,
+      "snoot": 2.85
+    }
+  },
+  "african_striped_weasel": {
+    "name": "African striped weasel",
+    "scientific_name": "Poecilogale albinucha",
+    "image": "https://doggies-galore.github.io/Mustelids/african_striped_weasel/assets/photo.webp",
+    "description": "The African striped weasel, also known as the white-naped weasel, is a small, burrowing mustelid native to sub-Saharan Africa.",
+    "fun_fact": "They obtain almost all the water they need directly from the prey they consume and rarely drink standing water.",
+    "weight": "0.23\u20130.38 kg",
+    "lifespan": "5\u20136 years",
+    "habitat": "Hedgerows & Grassland",
+    "scores": {
+      "noodle": 4.14,
+      "size": 2.03,
+      "biome": 2.42,
+      "sillay": 1.74,
+      "snoot": 3.52
+    }
+  },
+  "hairy_nosed_otter": {
+    "name": "Hairy-nosed otter",
+    "scientific_name": "Lutra sumatrana",
+    "image": "https://doggies-galore.github.io/Mustelids/hairy_nosed_otter/assets/photo.webp",
+    "description": "The hairy-nosed otter is an otter species native to Southeast Asia. It is one of the rarest and least-known otter species.",
+    "fun_fact": "They are one of the world's rarest otters and are named for their nose pad, which is completely covered in short velvety hair, unlike the naked noses of most other otters.",
+    "weight": "5\u20138 kg",
+    "lifespan": "10\u201312 years",
+    "habitat": "Southeast Asian Swamp Forests",
+    "scores": {
+      "noodle": 3.15,
+      "size": 4.02,
+      "biome": 4.08,
+      "sillay": 2.54,
+      "snoot": 1.0
+    }
+  },
+  "mountain_weasel": {
+    "name": "Mountain weasel",
+    "scientific_name": "Mustela altaica",
+    "image": "https://doggies-galore.github.io/Mustelids/mountain_weasel/assets/photo.webp",
+    "description": "The mountain weasel, also known as the pale weasel, Altai weasel or solongoi, primarily lives in high-altitude environments in Asia.",
+    "fun_fact": "In parts of China, there have been reports of these elusive weasels acting surprisingly friendly and appearing tame when encountering people in tents.",
+    "weight": "0.12\u20130.35 kg",
+    "lifespan": "7\u201310 years",
+    "habitat": "Alpine Scree & Grassland",
+    "scores": {
+      "noodle": 4.57,
+      "size": 1.86,
+      "biome": 1.18,
+      "sillay": 4.45,
+      "snoot": 2.6
+    }
+  },
+  "cuddlebug": {
+    "name": "Cuddlebug",
+    "scientific_name": "Lutra Bombacia",
+    "image": "https://doggies-galore.github.io/Mustelids/cuddlebug/assets/photo.webp",
+    "description": "This is Cuddlebug. He loves you. <3",
+    "fun_fact": "He twerk. :3",
+    "weight": "Wait",
+    "lifespan": "∞ years",
+    "habitat": "Bedrooms, arms, hearts.",
+    "scores": {
+      "noodle": 5,
+      "size": 5,
+      "biome": 5,
+      "sillay": 5,
+      "snoot": 5
+    }
+  }
+}

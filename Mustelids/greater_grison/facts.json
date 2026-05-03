@@ -1,0 +1,18 @@
+{
+  "common_name": "Greater grison",
+  "scientific_name": "Galictis vittata",
+  "subfamily": "Ictonychinae",
+  "genus": "Galictis",
+  "description": "The greater grison is a species of mustelid found in Central and South America. It is a medium-sized animal with a grizzled grey coat and a black underside.",
+  "fun_fact": "When hunting, they move in a zigzag pattern and frequently pause to raise their heads above tall grass to sniff the air and survey their surroundings.",
+  "weight": "1.5\u20133.8 kg",
+  "lifespan": "10\u201312 years",
+  "wiki_url": "https://en.wikipedia.org/wiki/Greater_grison",
+  "image_url": "./assets/photo.webp",
+  "habitat": "Tropical Forests & Steppe",
+  "noodle": 1.62,
+  "size": 3.43,
+  "biome": 2.78,
+  "sillay": 3.03,
+  "snoot": 4.32
+}

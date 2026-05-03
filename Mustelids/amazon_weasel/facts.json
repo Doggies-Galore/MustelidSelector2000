@@ -1,0 +1,18 @@
+{
+  "common_name": "Amazon weasel",
+  "scientific_name": "Neogale africana",
+  "subfamily": "Mustelinae",
+  "genus": "Neogale",
+  "description": "The Amazon weasel is a species of mustelid native to the Amazon basin in South America. Despite its name, it is not found in Africa.",
+  "fun_fact": "They are the only mustelids with a ventral stripe, a dark line that runs down the middle of their pale-colored chest and belly.",
+  "weight": "0.5 kg (estimated)",
+  "lifespan": "3\u20135 years",
+  "wiki_url": "https://en.wikipedia.org/wiki/Amazon_weasel",
+  "image_url": "./assets/photo.webp",
+  "habitat": "Humid Lowland Rainforests",
+  "noodle": 4.32,
+  "size": 2.35,
+  "biome": 4.02,
+  "sillay": 3.34,
+  "snoot": 2.78
+}

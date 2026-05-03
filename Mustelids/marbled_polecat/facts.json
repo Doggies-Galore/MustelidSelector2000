@@ -1,0 +1,18 @@
+{
+  "common_name": "Marbled polecat",
+  "scientific_name": "Vormela peregusna",
+  "subfamily": "Ictonychinae",
+  "genus": "Vormela",
+  "description": "The marbled polecat is a small mustelid native to southeast Europe and parts of Asia. It is known for its striking, multi-colored coat.",
+  "fun_fact": "They have a unique 'marbled' coat of yellow, white, and brown spots, and when threatened, they fluff up their fur and stand on their hind legs to look larger.",
+  "weight": "0.3\u20130.7 kg",
+  "lifespan": "8\u201312 years",
+  "wiki_url": "https://en.wikipedia.org/wiki/Marbled_polecat",
+  "image_url": "./assets/photo.webp",
+  "habitat": "Arid Steppes & Semi-deserts",
+  "noodle": 3.77,
+  "size": 2.35,
+  "biome": 1.0,
+  "sillay": 2.85,
+  "snoot": 2.91
+}

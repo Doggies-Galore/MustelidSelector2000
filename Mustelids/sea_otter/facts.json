@@ -1,0 +1,18 @@
+{
+  "common_name": "Sea otter",
+  "scientific_name": "Enhydra lutris",
+  "subfamily": "Lutrinae",
+  "genus": "Enhydra",
+  "description": "The sea otter is a marine mammal native to the coasts of the northern and eastern North Pacific Ocean.",
+  "fun_fact": "Sea otters have the densest fur of any animal, with up to one million hairs per square inch; they lack blubber and rely entirely on this fur to stay warm.",
+  "weight": "14\u201345 kg",
+  "lifespan": "10\u201315 years",
+  "wiki_url": "https://en.wikipedia.org/wiki/Sea_otter",
+  "image_url": "./assets/photo.webp",
+  "habitat": "Nearshore Kelp Forests",
+  "noodle": 1.12,
+  "size": 5.0,
+  "biome": 4.82,
+  "sillay": 3.58,
+  "snoot": 1.06
+}

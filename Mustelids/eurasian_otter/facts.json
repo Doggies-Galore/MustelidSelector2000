@@ -1,0 +1,18 @@
+{
+  "common_name": "Eurasian otter",
+  "scientific_name": "Lutra lutra",
+  "subfamily": "Lutrinae",
+  "genus": "Lutra",
+  "description": "The Eurasian otter, also known as the European otter, Eurasian river otter, common otter, or Old World otter, is a semiaquatic mammal native to Eurasia.",
+  "fun_fact": "Their droppings, known as 'spraint', have a surprisingly pleasant smell that is often compared to jasmine tea or mown hay.",
+  "weight": "7\u201312 kg",
+  "lifespan": "3\u20134 years",
+  "wiki_url": "https://en.wikipedia.org/wiki/Eurasian_otter",
+  "image_url": "./assets/photo.webp",
+  "habitat": "Freshwater Rivers & Wetlands",
+  "noodle": 2.23,
+  "size": 4.26,
+  "biome": 4.57,
+  "sillay": 2.17,
+  "snoot": 2.05
+}

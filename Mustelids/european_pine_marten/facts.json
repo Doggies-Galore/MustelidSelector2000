@@ -1,0 +1,18 @@
+{
+  "common_name": "European pine marten",
+  "scientific_name": "Martes martes",
+  "subfamily": "Guloninae",
+  "genus": "Martes",
+  "description": "The European pine marten, also known as the pine marten or the sweet marten, is an animal native to Northern Europe.",
+  "fun_fact": "They are the only mustelids with semi-retractable claws, which combined with 180-degree rotating ankles, makes them expert climbers.",
+  "weight": "0.9\u20132.2 kg",
+  "lifespan": "3\u20134 years",
+  "wiki_url": "https://en.wikipedia.org/wiki/European_pine_marten",
+  "image_url": "./assets/photo.webp",
+  "habitat": "Old-growth Deciduous Forests",
+  "noodle": 2.6,
+  "size": 3.09,
+  "biome": 3.28,
+  "sillay": 4.82,
+  "snoot": 3.58
+}

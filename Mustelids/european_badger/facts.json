@@ -1,0 +1,18 @@
+{
+  "common_name": "European badger",
+  "scientific_name": "Meles meles",
+  "subfamily": "Melinae",
+  "genus": "Meles",
+  "description": "The European badger is a badger species native to almost all of Europe. It is a powerful animal with a small head, a stocky body, small black eyes and a short tail.",
+  "fun_fact": "They live in communal burrow systems called setts that can be hundreds of years old and are passed down through many generations of the same clan.",
+  "weight": "7\u201317 kg",
+  "lifespan": "3\u20138 years",
+  "wiki_url": "https://en.wikipedia.org/wiki/European_badger",
+  "image_url": "./assets/photo.webp",
+  "habitat": "Deciduous Woodlands & Pastures",
+  "noodle": 3.52,
+  "size": 4.42,
+  "biome": 3.58,
+  "sillay": 2.6,
+  "snoot": 4.08
+}

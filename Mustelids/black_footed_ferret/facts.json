@@ -1,0 +1,18 @@
+{
+  "common_name": "Black-footed ferret",
+  "scientific_name": "Mustela nigripes",
+  "subfamily": "Mustelinae",
+  "genus": "Mustela",
+  "description": "The black-footed ferret, also known as the American polecat or prairie dog hunter, is a species of mustelid native to central North America.",
+  "fun_fact": "They were once thought to be extinct until a small population was rediscovered in Wyoming in 1981; all living individuals today descend from just seven ancestors.",
+  "weight": "0.6\u20131.4 kg",
+  "lifespan": "1\u20134 years",
+  "wiki_url": "https://en.wikipedia.org/wiki/Black-footed_ferret",
+  "image_url": "./assets/photo.webp",
+  "habitat": "Shortgrass Prairie",
+  "noodle": 3.22,
+  "size": 2.8,
+  "biome": 1.25,
+  "sillay": 2.35,
+  "snoot": 3.22
+}

@@ -1,0 +1,18 @@
+{
+  "common_name": "Steppe polecat",
+  "scientific_name": "Mustela eversmanii",
+  "subfamily": "Mustelinae",
+  "genus": "Mustela",
+  "description": "The steppe polecat, also known as the white or masked polecat, is a species of mustelid native to Central and Eastern Europe and Central Asia.",
+  "fun_fact": "They perform a 'war dance' to disorient prey, leaping and jumping around while making soft clucking sounds before they attack.",
+  "weight": "0.7\u20132.05 kg",
+  "lifespan": "Up to 5 years",
+  "wiki_url": "https://en.wikipedia.org/wiki/Steppe_polecat",
+  "image_url": "./assets/photo.webp",
+  "habitat": "Dry Scrub & Farmland",
+  "noodle": 2.97,
+  "size": 3.01,
+  "biome": 1.43,
+  "sillay": 4.08,
+  "snoot": 4.2
+}

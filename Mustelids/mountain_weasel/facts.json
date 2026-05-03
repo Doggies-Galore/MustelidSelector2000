@@ -1,0 +1,18 @@
+{
+  "common_name": "Mountain weasel",
+  "scientific_name": "Mustela altaica",
+  "subfamily": "Mustelinae",
+  "genus": "Mustela",
+  "description": "The mountain weasel, also known as the pale weasel, Altai weasel or solongoi, primarily lives in high-altitude environments in Asia.",
+  "fun_fact": "In parts of China, there have been reports of these elusive weasels acting surprisingly friendly and appearing tame when encountering people in tents.",
+  "weight": "0.12\u20130.35 kg",
+  "lifespan": "7\u201310 years",
+  "wiki_url": "https://en.wikipedia.org/wiki/Mountain_weasel",
+  "image_url": "./assets/photo.webp",
+  "habitat": "Alpine Scree & Grassland",
+  "noodle": 4.57,
+  "size": 1.86,
+  "biome": 1.18,
+  "sillay": 4.45,
+  "snoot": 2.6
+}

@@ -1,0 +1,18 @@
+{
+  "common_name": "Yellow-bellied weasel",
+  "scientific_name": "Mustela kathiah",
+  "subfamily": "Mustelinae",
+  "genus": "Mustela",
+  "description": "The yellow-bellied weasel is a species of mustelid found in the forests of central and eastern Asia. It is known for its distinctive yellow underbelly.",
+  "fun_fact": "Historically in Nepal, they were kept by humans to control rodent populations and were even trained to attack larger animals for sport.",
+  "weight": "1.5 kg",
+  "lifespan": "3\u20134 years",
+  "wiki_url": "https://en.wikipedia.org/wiki/Yellow-bellied_weasel",
+  "image_url": "./assets/photo.webp",
+  "habitat": "Hedgerows & Grassland",
+  "noodle": 4.94,
+  "size": 3.06,
+  "biome": 1.31,
+  "sillay": 3.4,
+  "snoot": 4.02
+}

@@ -1,0 +1,18 @@
+{
+  "common_name": "Malayan weasel",
+  "scientific_name": "Mustela nudipes",
+  "subfamily": "Mustelinae",
+  "genus": "Mustela",
+  "description": "The Malayan weasel is a species of weasel native to the Malay Peninsula and the islands of Sumatra and Borneo.",
+  "fun_fact": "Their scientific name, Mustela nudipes, translates to 'bare feet', referring to the fact that their foot pads have no fur at all.",
+  "weight": "1\u20132 kg",
+  "lifespan": "3\u201310 years",
+  "wiki_url": "https://en.wikipedia.org/wiki/Malayan_weasel",
+  "image_url": "./assets/photo.webp",
+  "habitat": "Hedgerows & Grassland",
+  "noodle": 4.45,
+  "size": 3.06,
+  "biome": 1.74,
+  "sillay": 4.63,
+  "snoot": 3.09
+}

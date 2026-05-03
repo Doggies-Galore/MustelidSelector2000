@@ -1,0 +1,18 @@
+{
+  "common_name": "Spotted-necked otter",
+  "scientific_name": "Hydrictis maculicollis",
+  "subfamily": "Lutrinae",
+  "genus": "Hydrictis",
+  "description": "The spotted-necked otter, or speckle-throated otter, is a species of otter native to sub-Saharan Africa.",
+  "fun_fact": "Each individual has a unique pattern of creamy-white blotches on its throat and chest, which researchers use to identify them in the wild.",
+  "weight": "3\u20136 kg",
+  "lifespan": "8 years",
+  "wiki_url": "https://en.wikipedia.org/wiki/Spotted-necked_otter",
+  "image_url": "./assets/photo.webp",
+  "habitat": "Freshwater Rivers & Wetlands",
+  "noodle": 1.37,
+  "size": 3.78,
+  "biome": 4.94,
+  "sillay": 4.88,
+  "snoot": 1.25
+}

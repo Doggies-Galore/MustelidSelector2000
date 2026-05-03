@@ -1,0 +1,18 @@
+{
+  "common_name": "Patagonian weasel",
+  "scientific_name": "Lyncodon patagonicus",
+  "subfamily": "Ictonychinae",
+  "genus": "Lyncodon",
+  "description": "The Patagonian weasel is a small mustelid native to the Pampas of Argentina and Chile. It is the only species in the genus Lyncodon.",
+  "fun_fact": "They are the only member of their genus, Lyncodon, and were historically kept as 'working pets' by ranchers to control rodent populations.",
+  "weight": "0.225 kg",
+  "lifespan": "1\u20133 years",
+  "wiki_url": "https://en.wikipedia.org/wiki/Patagonian_weasel",
+  "image_url": "./assets/photo.webp",
+  "habitat": "Pampas & Shrubby Woodlands",
+  "noodle": 3.95,
+  "size": 1.83,
+  "biome": 3.52,
+  "sillay": 2.42,
+  "snoot": 3.71
+}

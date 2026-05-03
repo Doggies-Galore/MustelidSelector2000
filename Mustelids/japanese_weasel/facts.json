@@ -1,0 +1,18 @@
+{
+  "common_name": "Japanese weasel",
+  "scientific_name": "Mustela itatsi",
+  "subfamily": "Mustelinae",
+  "genus": "Mustela",
+  "description": "The Japanese weasel is a carnivorous mammal belonging to the genus Mustela in the family Mustelidae. It is native to Japan.",
+  "fun_fact": "In Japanese folklore, they are associated with the kamaitachi, a supernatural creature depicted as a weasel with sickle-like claws.",
+  "weight": "0.1\u20130.82 kg",
+  "lifespan": "2\u20133 years",
+  "wiki_url": "https://en.wikipedia.org/wiki/Japanese_weasel",
+  "image_url": "./assets/photo.webp",
+  "habitat": "Forest Streams & Grasslands",
+  "noodle": 4.82,
+  "size": 2.3,
+  "biome": 2.85,
+  "sillay": 4.02,
+  "snoot": 3.46
+}

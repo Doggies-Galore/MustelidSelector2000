@@ -1,0 +1,18 @@
+{
+  "common_name": "Least weasel",
+  "scientific_name": "Mustela nivalis",
+  "subfamily": "Mustelinae",
+  "genus": "Mustela",
+  "description": "The least weasel is the smallest member of the genus Mustela, the family Mustelidae and the order Carnivora. It is native to Eurasia, North America and North Africa.",
+  "fun_fact": "They are the smallest carnivorous mammals in the world and must consume up to 60% of their body weight every day to survive.",
+  "weight": "0.025\u20130.1 kg",
+  "lifespan": "< 1 year",
+  "wiki_url": "https://en.wikipedia.org/wiki/Least_weasel",
+  "image_url": "./assets/photo.webp",
+  "habitat": "Hedgerows & Grassland",
+  "noodle": 4.51,
+  "size": 1.0,
+  "biome": 1.68,
+  "sillay": 3.77,
+  "snoot": 1.31
+}

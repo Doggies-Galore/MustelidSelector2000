@@ -1,0 +1,1257 @@
+/* ═══════════════════════════════════════════════════════════════════
+   ☕ Crema — Core Framework Stylesheet v2.0
+   Accessibility · Minimalism · Coziness
+   Unified design language across Sillyboard, LaserStation, & Settings
+   ═══════════════════════════════════════════════════════════════════ */
+
+/* ── @property — enables smooth CSS color interpolation (Sillyboard/LD pattern) */
+@property --crema-bg {
+    syntax: '<color>';
+    inherits: true;
+    initial-value: #1a0d0b;
+}
+
+@property --crema-fg {
+    syntax: '<color>';
+    inherits: true;
+    initial-value: #d4a373;
+}
+
+/* ── Design Tokens ────────────────────────────────────────────────── */
+:root {
+    --crema-bg: #1a0d0b;
+    --crema-fg: #d4a373;
+
+    /* Bridge aliases — apps using --bg-color / --accent-color work seamlessly */
+    --bg-color: var(--crema-bg);
+    --accent-color: var(--crema-fg);
+
+    /* Derived surfaces */
+    --crema-surface: rgba(255, 255, 255, 0.05);
+    --crema-surface-hover: rgba(255, 255, 255, 0.10);
+    --crema-surface-active: rgba(255, 255, 255, 0.15);
+    --crema-focus-ring: rgba(212, 163, 115, 0.3);
+    --crema-dim: rgba(255, 255, 255, 0.35);
+    --crema-border-subtle: rgba(255, 255, 255, 0.12);
+
+    /* Semantic colors */
+    --crema-danger: #ff4c4c;
+    --crema-success: #00ff88;
+    --crema-warn: #ffcc00;
+    --crema-info: #64a0ff;
+
+    /* Spacing scale */
+    --crema-space-xs: 6px;
+    --crema-space-sm: 12px;
+    --crema-space-md: 18px;
+    --crema-space-lg: 32px;
+    --crema-space-xl: 48px;
+    --crema-space-xxl: 72px;
+
+    /* Radii — Sillyboard-like curves */
+    --crema-radius-sm: 12px;
+    --crema-radius-md: 18px;
+    --crema-radius-lg: 24px;
+    --crema-radius-xl: 32px;
+    --crema-radius-pill: 9999px;
+
+    /* Border Thickness */
+    --crema-border-width: 3px;
+    --crema-border-width-thick: 4px;
+
+    /* Motion — 0.6s for theme interpolation (Sillyboard standard) */
+    --crema-ease: cubic-bezier(0.4, 0.0, 0.2, 1);
+    --crema-ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+    --crema-duration-fast: 180ms;
+    --crema-duration-normal: 350ms;
+    --crema-duration-slow: 600ms;
+
+    /* Smooth theme variable transitions */
+    transition:
+        --crema-bg 0.6s cubic-bezier(0.4, 0.0, 0.2, 1),
+        --crema-fg 0.6s cubic-bezier(0.4, 0.0, 0.2, 1);
+
+    /* Typography */
+    --crema-font: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+    --crema-font-mono: 'Roboto Mono', 'SF Mono', 'Fira Code', 'Consolas', monospace;
+}
+
+/* ── Reset ────────────────────────────────────────────────────────── */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ── Base ─────────────────────────────────────────────────────────── */
+html {
+    background-color: var(--crema-bg);
+}
+
+html.crema-ready {
+    transition: background-color var(--crema-duration-slow) var(--crema-ease);
+}
+
+body {
+    background-color: transparent;
+    color: var(--crema-fg);
+    font-family: var(--crema-font);
+    font-size: 1rem;
+    line-height: 1.5;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+    background: var(--crema-fg);
+    color: var(--crema-bg);
+}
+
+/* ── Page Wrapper ─────────────────────────────────────────────────── */
+.crema-page {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    padding: var(--crema-space-xl);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+    transform: scale(0.95);
+    -webkit-overflow-scrolling: touch;
+}
+
+.crema-page.crema-visible {
+    transition:
+        opacity 500ms var(--crema-ease),
+        transform 500ms var(--crema-ease);
+    opacity: 1;
+    transform: scale(1);
+}
+
+.crema-page.crema-exit {
+    animation: cremaFadeOut var(--crema-duration-normal) var(--crema-ease) forwards !important;
+}
+
+/* ── Scrollbar ────────────────────────────────────────────────────── */
+.crema-page::-webkit-scrollbar {
+    width: 6px;
+}
+
+.crema-page::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.crema-page::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 3px;
+}
+
+.crema-page::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* ── Header ───────────────────────────────────────────────────────── */
+.crema-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: var(--crema-space-xl);
+}
+
+.crema-header h1 {
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    font-weight: 900;
+    letter-spacing: 0.05em;
+    border-bottom: var(--crema-border-width-thick) solid var(--crema-fg);
+    padding-bottom: var(--crema-space-sm);
+}
+
+/* ── Back Button ──────────────────────────────────────────────────── */
+.crema-back {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--crema-fg);
+    font-size: 2vw;
+    cursor: pointer;
+    border: 3px solid var(--crema-fg);
+    padding: var(--crema-space-sm) 25px;
+    border-radius: var(--crema-radius-lg);
+    background: rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    font-weight: bold;
+    transition: all var(--crema-duration-fast);
+    user-select: none;
+}
+
+.crema-back:hover {
+    background: var(--crema-fg);
+    color: var(--crema-bg);
+}
+
+.crema-back:focus-visible {
+    outline: 3px solid var(--crema-fg);
+    outline-offset: 5px;
+}
+
+/* ── Cards / Sections ─────────────────────────────────────────────── */
+.crema-card {
+    width: 100%;
+    max-width: 800px;
+    background: var(--crema-surface);
+    border: 2px solid var(--crema-fg);
+    border-radius: var(--crema-radius-lg);
+    padding: var(--crema-space-lg);
+    margin-bottom: var(--crema-space-lg);
+}
+
+.crema-card-title {
+    font-size: 2vw;
+    margin-bottom: 25px;
+    opacity: 0.9;
+    border-bottom: 2px solid var(--crema-fg);
+    display: inline-block;
+    padding-bottom: var(--crema-space-xs);
+}
+
+.crema-card-icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+    opacity: 0.8;
+}
+
+/* ── Buttons ──────────────────────────────────────────────────────── */
+.crema-btn {
+    padding: var(--crema-space-md) var(--crema-space-lg);
+    border: var(--crema-border-width) solid var(--crema-fg);
+    color: var(--crema-fg);
+    border-radius: var(--crema-radius-lg);
+    font-size: 1.15rem;
+    cursor: pointer;
+    background: transparent;
+    transition: 
+        transform 0.1s var(--crema-ease),
+        background-color 0.15s ease,
+        color 0.15s ease,
+        border-color var(--crema-duration-slow) var(--crema-ease);
+    font-weight: 800;
+    text-align: center;
+    font-family: var(--crema-font);
+    user-select: none;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+.crema-btn:hover:not(:disabled) {
+    background-color: var(--crema-fg);
+    color: var(--crema-bg);
+}
+
+.crema-btn:focus-visible {
+    outline: 3px solid var(--crema-fg);
+    outline-offset: 5px;
+}
+
+.crema-btn:active:not(:disabled) {
+    transform: scale(0.97);
+}
+
+.crema-btn:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+/* Button Variants */
+.crema-btn-primary {
+    background: var(--crema-fg);
+    color: var(--crema-bg);
+}
+
+.crema-btn-primary:hover:not(:disabled) {
+    filter: brightness(0.85);
+    background: var(--crema-fg);
+    color: var(--crema-bg);
+    transform: scale(1.02);
+}
+
+.crema-btn-danger {
+    background: var(--crema-danger);
+    color: white;
+    border-color: var(--crema-danger);
+}
+
+.crema-btn-danger:hover:not(:disabled) {
+    filter: brightness(1.2);
+    background: var(--crema-danger);
+    color: white;
+    transform: scale(1.02);
+}
+
+.crema-btn-ghost {
+    border-color: transparent;
+    opacity: 0.7;
+}
+
+.crema-btn-ghost:hover:not(:disabled) {
+    opacity: 1;
+    background: var(--crema-surface-hover);
+    color: var(--crema-fg);
+}
+
+/* Button Sizes */
+.crema-btn-sm {
+    padding: 8px 15px;
+    font-size: 0.9rem;
+    border-radius: var(--crema-radius-sm);
+}
+
+.crema-btn-lg {
+    padding: 18px 40px;
+    font-size: 1.4rem;
+    border-radius: var(--crema-radius-lg);
+}
+
+/* ── Inputs ───────────────────────────────────────────────────────── */
+.crema-input {
+    width: 100%;
+    padding: var(--crema-space-md) 20px;
+    background: var(--crema-surface);
+    border: 2px solid var(--crema-fg);
+    border-radius: var(--crema-radius-md);
+    color: var(--crema-fg);
+    font-size: 1.1rem;
+    font-family: var(--crema-font);
+    outline: none;
+    transition: border-color var(--crema-duration-fast), background var(--crema-duration-fast), box-shadow var(--crema-duration-fast);
+}
+
+.crema-input:focus {
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 0 0 3px var(--crema-focus-ring);
+}
+
+.crema-input::placeholder {
+    color: var(--crema-fg);
+    opacity: 0.25;
+}
+
+.crema-input:disabled {
+    opacity: 0.35;
+    cursor: not-allowed;
+}
+
+textarea.crema-input {
+    resize: none;
+    font-family: var(--crema-font-mono);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    min-height: 120px;
+}
+
+/* Input with action button (show/hide) */
+.crema-input-wrap {
+    position: relative;
+}
+
+.crema-input-wrap .crema-input {
+    padding-right: 70px;
+}
+
+.crema-input-action {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: var(--crema-fg);
+    opacity: 0.4;
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: bold;
+    transition: opacity var(--crema-duration-fast);
+    padding: var(--crema-space-xs) var(--crema-space-sm);
+    font-family: var(--crema-font);
+}
+
+.crema-input-action:hover {
+    opacity: 0.8;
+}
+
+/* ── Field Layout ─────────────────────────────────────────────────── */
+.crema-field {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.crema-field-label {
+    display: block;
+    font-size: 1rem;
+    opacity: 0.7;
+    margin-bottom: 8px;
+    margin-left: var(--crema-space-sm);
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.crema-field-hint {
+    display: block;
+    font-size: 0.8rem;
+    opacity: 0.4;
+    margin-bottom: 8px;
+    margin-left: var(--crema-space-sm);
+}
+
+/* ── Checkbox & Radio ─────────────────────────────────────────────── */
+.crema-check-label {
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    gap: var(--crema-space-sm);
+    cursor: pointer;
+    user-select: none;
+}
+
+.crema-check-label input[type="checkbox"],
+.crema-check-label input[type="radio"] {
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    accent-color: var(--crema-fg);
+    flex-shrink: 0;
+}
+
+/* ── Select ───────────────────────────────────────────────────────── */
+.crema-select {
+    appearance: none;
+    background: var(--crema-surface);
+    border: 2px solid var(--crema-fg);
+    color: var(--crema-fg);
+    border-radius: var(--crema-radius-md);
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: var(--crema-space-sm) 18px;
+    cursor: pointer;
+    outline: none;
+    transition: all var(--crema-duration-fast);
+    font-family: var(--crema-font);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23d4a373' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    padding-right: 35px;
+}
+
+.crema-select:hover {
+    background-color: var(--crema-surface-hover);
+}
+
+.crema-select:focus-visible {
+    outline: 3px solid var(--crema-fg);
+    outline-offset: 3px;
+}
+
+.crema-select:disabled {
+    opacity: 0.35;
+    cursor: default;
+}
+
+/* ── Toggle Group ─────────────────────────────────────────────────── */
+.crema-toggle {
+    display: inline-flex;
+    background: var(--crema-surface);
+    padding: 6px;
+    border-radius: var(--crema-radius-md);
+    border: 2.5px solid var(--crema-fg);
+    gap: 6px;
+}
+
+.crema-toggle-tab {
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all var(--crema-duration-fast);
+    font-size: 1rem;
+    font-weight: bold;
+    user-select: none;
+    border: none;
+    background: transparent;
+    color: var(--crema-fg);
+    font-family: var(--crema-font);
+}
+
+.crema-toggle-tab:hover:not(.crema-active) {
+    background: var(--crema-surface-hover);
+}
+
+.crema-toggle-tab.crema-active {
+    background: var(--crema-fg);
+    color: var(--crema-bg);
+}
+
+.crema-toggle-tab:focus-visible {
+    outline: 2px solid var(--crema-fg);
+    outline-offset: 2px;
+}
+
+/* ── Status Banner ────────────────────────────────────────────────── */
+.crema-status {
+    width: 100%;
+    max-width: 800px;
+    padding: var(--crema-space-md) 20px;
+    border-radius: var(--crema-radius-md);
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 25px;
+    transition: all 300ms ease;
+    font-size: 1.1rem;
+}
+
+.crema-status-loading {
+    background: rgba(255, 204, 0, 0.15);
+    border: 2px solid var(--crema-warn);
+    color: var(--crema-warn);
+}
+
+.crema-status-success {
+    background: rgba(0, 255, 136, 0.1);
+    border: 2px solid var(--crema-success);
+    color: var(--crema-success);
+}
+
+.crema-status-error {
+    background: rgba(255, 76, 76, 0.15);
+    border: 2px solid var(--crema-danger);
+    color: var(--crema-danger);
+}
+
+.crema-status-info {
+    background: rgba(100, 160, 255, 0.1);
+    border: 2px solid var(--crema-info);
+    color: var(--crema-info);
+}
+
+/* ── Modal ────────────────────────────────────────────────────────── */
+.crema-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2000;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 300ms ease;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.crema-modal-overlay.crema-active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.crema-modal {
+    background: var(--crema-bg);
+    border: 4px solid var(--crema-fg);
+    border-radius: var(--crema-radius-xl);
+    padding: var(--crema-space-xl);
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+    transform: scale(0.9);
+    transition: transform 300ms var(--crema-ease-spring);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+}
+
+.crema-modal-overlay.crema-active .crema-modal {
+    transform: scale(1);
+}
+
+.crema-modal h3 {
+    margin-bottom: 25px;
+    font-size: 2rem;
+    border-bottom: 2px solid var(--crema-fg);
+    display: inline-block;
+    padding-bottom: var(--crema-space-xs);
+}
+
+.crema-modal p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    opacity: 0.9;
+    margin-bottom: var(--crema-space-lg);
+}
+
+.crema-modal-actions {
+    display: flex;
+    gap: var(--crema-space-md);
+}
+
+.crema-modal-actions .crema-btn:first-child {
+    flex: 1;
+}
+
+.crema-modal-actions .crema-btn:last-child {
+    flex: 2;
+}
+
+/* ── Badge / Tag ──────────────────────────────────────────────────── */
+.crema-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--crema-fg);
+    color: var(--crema-bg);
+    padding: var(--crema-space-xs) var(--crema-space-md);
+    border: var(--crema-border-width) solid var(--crema-fg);
+    border-radius: var(--crema-radius-lg); /* Match button radius */
+    font-weight: 800;
+    font-size: 0.95rem;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.crema-badge-outline {
+    background: transparent;
+    border: var(--crema-border-width) solid var(--crema-fg);
+    color: var(--crema-fg);
+}
+
+/* ── List ─────────────────────────────────────────────────────────── */
+.crema-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--crema-space-sm);
+    width: 100%;
+}
+
+.crema-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--crema-space-md);
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: var(--crema-radius-md);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: background var(--crema-duration-fast);
+}
+
+.crema-list-item:hover {
+    background: var(--crema-surface-hover);
+}
+
+.crema-list-item-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.crema-list-item-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.crema-list-item-subtitle {
+    font-size: 0.85rem;
+    opacity: 0.5;
+}
+
+/* ── Grid ─────────────────────────────────────────────────────────── */
+.crema-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    width: 100%;
+}
+
+.crema-grid-2 { grid-template-columns: repeat(2, 1fr); }
+.crema-grid-3 { grid-template-columns: repeat(3, 1fr); }
+
+/* ── Theme Grid ───────────────────────────────────────────────────── */
+.crema-theme-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    width: 100%;
+    margin-bottom: var(--crema-space-lg);
+}
+
+.crema-theme-btn {
+    padding: 20px 15px;
+    border: 2.5px solid var(--crema-fg);
+    color: var(--crema-fg);
+    border-radius: var(--crema-radius-md);
+    font-size: 1.1rem;
+    cursor: pointer;
+    background: transparent;
+    transition: all var(--crema-duration-fast);
+    font-weight: bold;
+    text-align: center;
+    font-family: var(--crema-font);
+}
+
+.crema-theme-btn:hover {
+    background: var(--crema-fg);
+    color: var(--crema-bg);
+}
+
+/* ── Row / Flex Utilities ─────────────────────────────────────────── */
+.crema-row {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.crema-row-center {
+    justify-content: center;
+}
+
+.crema-row-between {
+    justify-content: space-between;
+}
+
+.crema-row-wrap {
+    flex-wrap: wrap;
+}
+
+/* ── Separator ────────────────────────────────────────────────────── */
+.crema-separator {
+    width: 100%;
+    max-width: 800px;
+    height: 1px;
+    background: var(--crema-fg);
+    opacity: 0.15;
+    margin: var(--crema-space-lg) 0;
+    border: none;
+}
+
+/* ── Muted / Accent Text ──────────────────────────────────────────── */
+.crema-muted {
+    opacity: 0.5;
+}
+
+.crema-accent {
+    color: var(--crema-fg);
+    font-weight: bold;
+}
+
+.crema-small {
+    font-size: 0.85rem;
+}
+
+/* ── Empty State ──────────────────────────────────────────────────── */
+.crema-empty {
+    text-align: center;
+    font-size: 1.3rem;
+    padding: var(--crema-space-xxl) var(--crema-space-xl);
+    opacity: 0.35;
+}
+
+/* ── Tooltip ──────────────────────────────────────────────────────── */
+[data-crema-tooltip] {
+    position: relative;
+}
+
+[data-crema-tooltip]::after {
+    content: attr(data-crema-tooltip);
+    position: absolute;
+    bottom: calc(100% + 12px);
+    left: 50%;
+    transform: translateX(-50%) scale(0.9);
+    background: var(--crema-bg);
+    color: var(--crema-fg);
+    border: var(--crema-border-width) solid var(--crema-fg);
+    padding: 8px 16px;
+    border-radius: var(--crema-radius-md);
+    font-size: 0.9rem;
+    font-weight: 800;
+    white-space: nowrap;
+    pointer-events: none;
+    opacity: 0;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    transition: 
+        opacity var(--crema-duration-fast) var(--crema-ease),
+        transform var(--crema-duration-fast) var(--crema-ease-spring),
+        border-color var(--crema-duration-slow) var(--crema-ease);
+}
+
+[data-crema-tooltip]:hover::after,
+[data-crema-tooltip]:focus-visible::after {
+    opacity: 1;
+    transform: translateX(-50%) scale(1);
+}
+
+/* ── Slider ───────────────────────────────────────────────────────── */
+.crema-slider-wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: var(--crema-space-md) 0;
+}
+
+.crema-slider-info {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 800;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+.crema-slider-track {
+    position: relative;
+    width: 100%;
+    height: 12px;
+    background: var(--crema-surface);
+    border: var(--crema-border-width) solid var(--crema-fg);
+    border-radius: var(--crema-radius-pill);
+    cursor: pointer;
+    touch-action: none;
+}
+
+.crema-slider-fill {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: var(--crema-fg);
+    border-radius: var(--crema-radius-pill);
+    pointer-events: none;
+    transition: background-color var(--crema-duration-slow) var(--crema-ease);
+}
+
+.crema-slider-thumb {
+    position: absolute;
+    top: 50%;
+    width: 28px;
+    height: 28px;
+    background: var(--crema-fg);
+    border: var(--crema-border-width) solid var(--crema-bg);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    transition: 
+        transform 0.1s var(--crema-ease),
+        background-color var(--crema-duration-slow) var(--crema-ease),
+        border-color var(--crema-duration-slow) var(--crema-ease);
+}
+
+.crema-slider-track:active .crema-slider-thumb {
+    transform: translate(-50%, -50%) scale(1.2);
+}
+
+/* ── Jog Wheel ────────────────────────────────────────────────────── */
+.crema-jog-wrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: var(--crema-space-lg) 0;
+}
+
+.crema-jog-canvas {
+    display: block;
+    border-radius: 50%;
+    cursor: grab;
+    touch-action: none;
+}
+
+.crema-jog-canvas:active {
+    cursor: grabbing;
+}
+
+.crema-jog-label {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    font-weight: 900;
+    font-size: 1.2rem;
+    text-align: center;
+    transition: color var(--crema-duration-slow) var(--crema-ease);
+}
+
+/* ── Animations ───────────────────────────────────────────────────── */
+@keyframes cremaFadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.97);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes cremaFadeOut {
+    from {
+        opacity: 1;
+        transform: scale(1);
+    }
+    to {
+        opacity: 0;
+        transform: scale(0.92);
+    }
+}
+
+
+.crema-fade-in {
+    animation: cremaFadeIn 500ms var(--crema-ease) forwards;
+}
+
+.crema-slide-in {
+    animation: cremaSlideIn 400ms var(--crema-ease) forwards;
+}
+
+/* ── Stagger Utility ──────────────────────────────────────────────── */
+.crema-stagger > * {
+    opacity: 0;
+    animation: cremaSlideIn 400ms var(--crema-ease) forwards;
+}
+
+.crema-stagger > *:nth-child(1) { animation-delay: 50ms; }
+.crema-stagger > *:nth-child(2) { animation-delay: 100ms; }
+.crema-stagger > *:nth-child(3) { animation-delay: 150ms; }
+.crema-stagger > *:nth-child(4) { animation-delay: 200ms; }
+.crema-stagger > *:nth-child(5) { animation-delay: 250ms; }
+.crema-stagger > *:nth-child(6) { animation-delay: 300ms; }
+.crema-stagger > *:nth-child(7) { animation-delay: 350ms; }
+.crema-stagger > *:nth-child(8) { animation-delay: 400ms; }
+.crema-stagger > *:nth-child(9) { animation-delay: 450ms; }
+.crema-stagger > *:nth-child(10) { animation-delay: 500ms; }
+
+/* ── Reduced Motion ───────────────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+
+    .crema-page {
+        opacity: 1 !important;
+        transform: none !important;
+    }
+
+    .crema-stagger > * {
+        opacity: 1 !important;
+        animation: none !important;
+    }
+}
+
+/* ── Responsive ───────────────────────────────────────────────────── */
+@media (max-width: 768px) {
+    .crema-header h1 {
+        font-size: 7vw;
+    }
+
+    .crema-card-title {
+        font-size: 4vw;
+    }
+
+    .crema-back {
+        font-size: 3.5vw;
+        padding: 8px 18px;
+    }
+
+    .crema-page {
+        padding: 20px;
+    }
+
+    .crema-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .crema-grid-2,
+    .crema-grid-3 {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .crema-header h1 {
+        font-size: 9vw;
+    }
+
+    .crema-row {
+        flex-direction: column;
+        gap: var(--crema-space-sm);
+    }
+
+    .crema-modal {
+        padding: var(--crema-space-lg);
+        border-radius: var(--crema-radius-lg);
+    }
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+   App Header Bar — Sillyboard / LaserStation pattern
+   ═══════════════════════════════════════════════════════════════════ */
+.crema-app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 18px;
+    border-bottom: var(--crema-border-width) solid var(--crema-fg);
+    flex-shrink: 0;
+    transition: border-color var(--crema-duration-slow) var(--crema-ease);
+}
+
+.crema-app-header h1 {
+    font-size: clamp(1.2rem, 3vw, 1.8rem);
+    font-weight: 900;
+    letter-spacing: 0.04em;
+}
+
+.crema-app-header .crema-header-actions {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.crema-hdr-btn {
+    background: transparent;
+    color: var(--crema-fg);
+    border: 2.5px solid var(--crema-fg);
+    padding: 9px 20px;
+    border-radius: 14px;
+    font-size: clamp(0.85rem, 2vw, 1.05rem);
+    font-weight: 700;
+    font-family: var(--crema-font);
+    cursor: pointer;
+    transition:
+        background 0.15s, color 0.15s,
+        border-color var(--crema-duration-slow) var(--crema-ease);
+    touch-action: manipulation;
+    user-select: none;
+}
+
+.crema-hdr-btn:hover,
+.crema-hdr-btn:active {
+    background: var(--crema-fg);
+    color: var(--crema-bg);
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+   Settings Modal — Identical to Sillyboard / LaserStation
+   ═══════════════════════════════════════════════════════════════════ */
+.crema-settings-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.88);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2000;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+}
+
+.crema-settings-overlay.crema-active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.crema-settings-panel {
+    background: var(--crema-bg);
+    border: var(--crema-border-width-thick) solid var(--crema-fg);
+    border-radius: 26px;
+    padding: clamp(16px, 4vw, 28px);
+    width: 94%;
+    max-width: 560px;
+    max-height: 90vh;
+    overflow-y: auto;
+    transform: scale(0.9);
+    transition:
+        transform 0.3s var(--crema-ease-spring),
+        border-color var(--crema-duration-slow) var(--crema-ease),
+        background var(--crema-duration-slow) var(--crema-ease);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
+    -webkit-overflow-scrolling: touch;
+}
+
+.crema-settings-overlay.crema-active .crema-settings-panel {
+    transform: scale(1);
+}
+
+.crema-settings-panel h2 {
+    font-size: clamp(1.3rem, 4vw, 1.8rem);
+    font-weight: 900;
+    border-bottom: 2px solid var(--crema-fg);
+    padding-bottom: 8px;
+    margin-bottom: clamp(12px, 3vw, 20px);
+    text-align: center;
+    transition: border-color var(--crema-duration-slow) var(--crema-ease);
+}
+
+.crema-settings-section {
+    font-size: clamp(0.95rem, 3vw, 1.2rem);
+    font-weight: 900;
+    opacity: 0.8;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    padding-bottom: 6px;
+    margin-bottom: 10px;
+    display: inline-block;
+    letter-spacing: 0.05em;
+}
+
+/* ── Theme Grid (Sillyboard pattern) ──────────────────────────────── */
+.crema-settings-theme-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: clamp(5px, 1.5vw, 8px);
+    margin-bottom: clamp(14px, 3vw, 24px);
+}
+
+.crema-settings-theme-btn {
+    padding: clamp(9px, 2vw, 13px) 10px;
+    border: 2px solid var(--crema-fg);
+    color: var(--crema-fg);
+    border-radius: 12px;
+    font-size: clamp(0.9rem, 2.5vw, 1.1rem);
+    cursor: pointer;
+    background: transparent;
+    transition: all 0.2s;
+    font-weight: bold;
+    text-align: center;
+    font-family: var(--crema-font);
+}
+
+.crema-settings-theme-btn:hover {
+    background-color: var(--crema-fg);
+    color: var(--crema-bg);
+}
+
+/* ── Color Pickers (Sillyboard pattern) ───────────────────────────── */
+.crema-picker-row {
+    display: flex;
+    justify-content: center;
+    gap: clamp(20px, 8vw, 50px);
+    margin-top: 10px;
+    margin-bottom: clamp(14px, 3vw, 22px);
+}
+
+.crema-picker-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    font-size: clamp(0.9rem, 2.5vw, 1.1rem);
+}
+
+.crema-picker-wrap input[type="color"] {
+    width: 70px;
+    height: 44px;
+    border: 2px solid var(--crema-fg);
+    border-radius: 12px;
+    padding: 2px;
+    background: none;
+    cursor: pointer;
+    transition: border-color var(--crema-duration-slow) var(--crema-ease);
+}
+
+.crema-picker-wrap input[type="color"]::-webkit-color-swatch-wrapper {
+    padding: 0;
+    border-radius: 8px;
+}
+
+.crema-picker-wrap input[type="color"]::-webkit-color-swatch {
+    border: none;
+    border-radius: 8px;
+}
+
+.crema-picker-wrap input[type="color"]::-moz-color-swatch {
+    border: none;
+    border-radius: 8px;
+}
+
+/* ── Close Button (Sillyboard pattern) ────────────────────────────── */
+.crema-settings-close-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.crema-settings-close-btn {
+    flex: none;
+    padding: 12px 44px;
+    font-size: 1rem;
+    background: var(--crema-fg);
+    color: var(--crema-bg);
+    border: none;
+    border-radius: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: var(--crema-font);
+    transition:
+        opacity 0.2s,
+        background var(--crema-duration-slow) var(--crema-ease),
+        color var(--crema-duration-slow) var(--crema-ease);
+}
+
+.crema-settings-close-btn:hover {
+    opacity: 0.85;
+}
+
+/* ── Settings Scrollbar ───────────────────────────────────────────── */
+.crema-settings-panel::-webkit-scrollbar {
+    width: 4px;
+}
+
+.crema-settings-panel::-webkit-scrollbar-thumb {
+    background: var(--crema-fg);
+    border-radius: 2px;
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+   Shuttle / Jog Label Enhancements — LaserStation style
+   ═══════════════════════════════════════════════════════════════════ */
+.crema-slider-info {
+    font-family: var(--crema-font-mono);
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: var(--crema-fg);
+    text-transform: uppercase;
+    transition: color var(--crema-duration-slow) var(--crema-ease);
+}
+
+.crema-jog-label {
+    font-family: var(--crema-font);
+    font-size: clamp(9px, 2.5vw, 11px);
+    font-weight: 900;
+    letter-spacing: 0.06em;
+    opacity: 0.53;
+    transition: opacity 0.22s ease, color var(--crema-duration-slow) var(--crema-ease);
+}
+
+.crema-jog-label.bright {
+    opacity: 1;
+}

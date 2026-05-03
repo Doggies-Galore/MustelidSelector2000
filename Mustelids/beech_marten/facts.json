@@ -1,0 +1,18 @@
+{
+  "common_name": "Beech marten",
+  "scientific_name": "Martes foina",
+  "subfamily": "Guloninae",
+  "genus": "Martes",
+  "description": "The beech marten, also known as the stone marten, house marten or white-breasted marten, is a species of marten native to much of Europe and Central Asia.",
+  "fun_fact": "They have a notorious reputation for entering parked vehicle engine bays and chewing on cables and hoses, a behavior often called 'marten damage'.",
+  "weight": "1.1\u20132.5 kg",
+  "lifespan": "3\u201310 years",
+  "wiki_url": "https://en.wikipedia.org/wiki/Beech_marten",
+  "image_url": "./assets/photo.webp",
+  "habitat": "Rocky Mountains & Deciduous Woods",
+  "noodle": 3.89,
+  "size": 3.18,
+  "biome": 2.91,
+  "sillay": 3.83,
+  "snoot": 3.28
+}

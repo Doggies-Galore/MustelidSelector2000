@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mustelid Selector 2000</title>
+    <link rel="stylesheet" href="/Crema/crema.css">
+    <style>
+        :root {
+            --crema-bg: #4b2e2a;
+            --crema-fg: #fff3e0;
+        }
+
+        .selector-container {
+            max-width: 1000px;
+            margin: 40px auto;
+            width: 100%;
+        }
+
+        .selector-grid {
+            display: grid;
+            grid-template-columns: 350px 1fr;
+            gap: 40px;
+            align-items: start;
+        }
+
+        .sliders-pane {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .reveal-pane {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 400px;
+        }
+
+        /* --- Crema Slider Overrides --- */
+        .slider-group {
+            width: 100%;
+        }
+
+        .crema-slider-track {
+            position: relative;
+            width: 100%;
+            height: 10px;
+            background: var(--crema-surface);
+            border: 2px solid var(--crema-fg);
+            border-radius: var(--crema-radius-pill);
+            cursor: pointer;
+            margin-top: 5px;
+        }
+
+        .crema-slider-fill {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            background: var(--crema-fg);
+            border-radius: var(--crema-radius-pill);
+            pointer-events: none;
+            width: 50%;
+            transition: width 0.1s var(--crema-ease);
+        }
+
+        .crema-slider-thumb {
+            position: absolute;
+            top: 50%;
+            width: 24px;
+            height: 24px;
+            background: var(--crema-fg);
+            border: 2px solid var(--crema-bg);
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            pointer-events: none;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+            left: 50%;
+            transition: left 0.1s var(--crema-ease);
+        }
+
+        .crema-slider-track:active .crema-slider-thumb {
+            transform: translate(-50%, -50%) scale(1.1);
+        }
+
+        .btn-row {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .reveal-btn-large {
+            flex: 1;
+            height: 80px;
+            font-size: 1.5rem !important;
+        }
+
+        .random-btn {
+            height: 80px;
+            font-size: 1rem !important;
+            min-width: 90px;
+        }
+
+        .cache-status {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            background: var(--crema-surface);
+            border: 1px solid var(--crema-fg);
+            padding: 5px 15px;
+            border-radius: var(--crema-radius-pill);
+            font-size: 0.8rem;
+            opacity: 0.8;
+            display: none;
+            z-index: 1000;
+        }
+        .cache-status.active { display: block; }
+
+        .mustelid-result {
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            animation: crema-fade-in 0.5s var(--crema-ease);
+            text-align: center;
+            width: 100%;
+            max-width: 650px;
+            padding-bottom: 40px;
+        }
+
+        .mustelid-result.active {
+            display: flex;
+        }
+
+        .result-img-container {
+            position: relative;
+            width: 100%;
+            cursor: zoom-in;
+        }
+
+        .result-img {
+            width: 100%;
+            max-height: 450px;
+            object-fit: contain;
+            border-radius: var(--crema-radius-lg);
+            border: 3px solid var(--crema-fg);
+            background: rgba(0,0,0,0.2);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.6);
+            transition: transform 0.3s var(--crema-ease);
+        }
+
+        .result-img:hover {
+            transform: scale(1.02);
+        }
+
+        .result-info-main {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        .result-name {
+            font-size: 2.8rem;
+            font-weight: 900;
+            margin: 0;
+            line-height: 1.1;
+            color: var(--crema-fg);
+        }
+
+        .result-sci {
+            font-style: italic;
+            opacity: 0.6;
+            margin: 0;
+            font-size: 1.2rem;
+        }
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        .info-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: var(--crema-radius-md);
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        .info-label {
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            opacity: 0.5;
+        }
+
+        .info-value {
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+
+        .result-description {
+            background: rgba(0,0,0,0.2);
+            padding: 20px;
+            border-radius: var(--crema-radius-md);
+            border-left: 4px solid var(--crema-fg);
+            text-align: left;
+            width: 100%;
+            font-size: 1.05rem;
+            line-height: 1.6;
+        }
+
+        .result-fun-fact {
+            font-style: italic;
+            opacity: 0.9;
+            color: var(--crema-fg);
+            margin-top: 10px;
+            font-size: 0.95rem;
+        }
+
+        .result-fun-fact::before {
+            content: "💡 Fun Fact: ";
+            font-weight: bold;
+            opacity: 0.7;
+        }
+
+        /* --- Zoom Overlay --- */
+        .zoom-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.9);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 10000;
+            cursor: zoom-out;
+            padding: 20px;
+        }
+
+        .zoom-overlay.active {
+            display: flex;
+        }
+
+        .zoom-img {
+            max-width: 95%;
+            max-height: 95%;
+            object-fit: contain;
+            border-radius: var(--crema-radius-lg);
+            box-shadow: 0 0 50px rgba(0,0,0,1);
+            animation: zoom-in-anim 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+        }
+
+        @keyframes zoom-in-anim {
+            from { transform: scale(0.8); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
+        }
+
+        .val { display: none; }
+
+        @media (max-width: 850px) {
+            .selector-grid {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+            .result-img {
+                max-height: 350px;
+            }
+            .info-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="crema-page">
+        <header class="crema-header">
+            <h1>Mustelid Selector 2000</h1>
+        </header>
+
+        <div class="selector-container">
+            <div class="selector-grid">
+                <!-- Left Pane: Controls -->
+                <div class="sliders-pane">
+                    <div class="slider-group" data-cat="noodle">
+                        <div class="crema-slider-info">
+                            <span>Noodliness</span>
+                        </div>
+                        <div class="crema-slider-track" id="noodle-track">
+                            <div class="crema-slider-fill"></div>
+                            <div class="crema-slider-thumb"></div>
+                        </div>
+                    </div>
+
+                    <div class="slider-group" data-cat="size">
+                        <div class="crema-slider-info">
+                            <span>Size</span>
+                        </div>
+                        <div class="crema-slider-track" id="size-track">
+                            <div class="crema-slider-fill"></div>
+                            <div class="crema-slider-thumb"></div>
+                        </div>
+                    </div>
+
+                    <div class="slider-group" data-cat="biome">
+                        <div class="crema-slider-info">
+                            <span>Habitat</span>
+                        </div>
+                        <div class="crema-slider-track" id="biome-track">
+                            <div class="crema-slider-fill"></div>
+                            <div class="crema-slider-thumb"></div>
+                        </div>
+                    </div>
+
+                    <div class="slider-group" data-cat="sillay">
+                        <div class="crema-slider-info">
+                            <span>Sillay</span>
+                        </div>
+                        <div class="crema-slider-track" id="sillay-track">
+                            <div class="crema-slider-fill"></div>
+                            <div class="crema-slider-thumb"></div>
+                        </div>
+                    </div>
+
+                    <div class="slider-group" data-cat="snoot">
+                        <div class="crema-slider-info">
+                            <span>Snoot</span>
+                        </div>
+                        <div class="crema-slider-track" id="snoot-track">
+                            <div class="crema-slider-fill"></div>
+                            <div class="crema-slider-thumb"></div>
+                        </div>
+                    </div>
+
+                    <div class="btn-row">
+                        <button id="reveal-btn" class="crema-btn crema-btn-lg reveal-btn-large">REVEAL</button>
+                        <button id="random-btn" class="crema-btn crema-btn-ghost random-btn">Random</button>
+                    </div>
+                </div>
+
+                <!-- Right Pane: Reveal -->
+                <div class="reveal-pane">
+                    <div id="result-container" class="mustelid-result">
+                        <div class="result-img-container" id="zoom-trigger">
+                            <img id="result-img" class="result-img" src="" alt="">
+                        </div>
+                        
+                        <div class="result-info-main">
+                            <h2 id="result-name" class="result-name"></h2>
+                            <p id="result-sci" class="result-sci"></p>
+                        </div>
+
+                        <div class="info-grid">
+                            <div class="info-card">
+                                <span class="info-label">Weight</span>
+                                <span id="result-weight" class="info-value"></span>
+                            </div>
+                            <div class="info-card">
+                                <span class="info-label">Lifespan</span>
+                                <span id="result-lifespan" class="info-value"></span>
+                            </div>
+                            <div class="info-card">
+                                <span class="info-label">Habitat</span>
+                                <span id="result-habitat" class="info-value"></span>
+                            </div>
+                        </div>
+
+                        <div class="result-description" id="result-description"></div>
+                        <div id="result-fun-fact" class="result-fun-fact"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="zoom-overlay" class="zoom-overlay">
+        <img id="zoom-img" class="zoom-img" src="" alt="">
+    </div>
+
+    <div id="cache-status" class="cache-status">Caching Mustelids...</div>
+
+    <script src="/Crema/crema.js"></script>
+    <script>
+        // --- Audio (decoded to AudioBuffer for zero-latency playback) ---
+        const audio = { ctx: null, buffers: {} };
+
+        async function initAudio() {
+            audio.ctx = new (window.AudioContext || window.webkitAudioContext)();
+            const urls = { held: '/UX/WhileHeld.mp3', reveal: '/UX/Reveal.mp3' };
+            await Promise.all(Object.entries(urls).map(async ([key, url]) => {
+                const res = await fetch(url);
+                const arrayBuf = await res.arrayBuffer();
+                audio.buffers[key] = await audio.ctx.decodeAudioData(arrayBuf);
+            }));
+        }
+
+        let heldSource = null;
+        function playHeld() {
+            if (!audio.ctx || !audio.buffers.held) return;
+            stopHeld();
+            heldSource = audio.ctx.createBufferSource();
+            heldSource.buffer = audio.buffers.held;
+            heldSource.loop = true;
+            heldSource.connect(audio.ctx.destination);
+            heldSource.start(0);
+        }
+        function stopHeld() {
+            if (heldSource) { try { heldSource.stop(); } catch(e) {} heldSource = null; }
+        }
+        function playReveal() {
+            if (!audio.ctx || !audio.buffers.reveal) return;
+            const src = audio.ctx.createBufferSource();
+            src.buffer = audio.buffers.reveal;
+            src.connect(audio.ctx.destination);
+            src.start(0);
+        }
+
+        // --- Image Cache (in-memory + localStorage, same pattern as sorter) ---
+        const imgCache = {};
+
+        async function fetchImage(id, url) {
+            if (imgCache[id]) return imgCache[id];
+            const cached = localStorage.getItem(`mustelid-img-${id}`);
+            if (cached) { imgCache[id] = cached; return cached; }
+            try {
+                const blob = await (await fetch(url)).blob();
+                return new Promise(resolve => {
+                    const reader = new FileReader();
+                    reader.onloadend = () => {
+                        const b64 = reader.result;
+                        imgCache[id] = b64;
+                        try { localStorage.setItem(`mustelid-img-${id}`, b64); } catch(e) {}
+                        resolve(b64);
+                    };
+                    reader.readAsDataURL(blob);
+                });
+            } catch(e) { return null; }
+        }
+
+        async function prewarmImages(mustelids) {
+            const statusEl = document.getElementById('cache-status');
+            statusEl.classList.add('active');
+            let count = 0;
+            const entries = Object.entries(mustelids);
+            for (const [id, m] of entries) {
+                await fetchImage(id, m.image);
+                count++;
+                statusEl.textContent = `Caching Mustelids: ${count}/${entries.length}`;
+            }
+            statusEl.textContent = 'Cache Ready ✓';
+            setTimeout(() => statusEl.classList.remove('active'), 2000);
+        }
+
+        const state = {
+            mustelids: {},
+            isHolding: false,
+            values: { noodle: 3.0, size: 3.0, biome: 3.0, sillay: 3.0, snoot: 3.0 }
+        };
+
+        async function init() {
+            const [res] = await Promise.all([
+                fetch('/api/master_scores'),
+                initAudio()
+            ]);
+            state.mustelids = await res.json();
+            prewarmImages(state.mustelids);
+            
+            // Setup custom sliders
+            Object.keys(state.values).forEach(cat => {
+                const group = document.querySelector(`.slider-group[data-cat="${cat}"]`);
+                const track = group.querySelector('.crema-slider-track');
+                const fill = group.querySelector('.crema-slider-fill');
+                const thumb = group.querySelector('.crema-slider-thumb');
+                const valDisplay = group.querySelector('.val');
+
+                const updateSlider = (clientX) => {
+                    const rect = track.getBoundingClientRect();
+                    let pct = (clientX - rect.left) / rect.width;
+                    pct = Math.max(0, Math.min(1, pct));
+                    
+                    // Map pct to 1-5, but snap to halves (1.0, 1.5, 2.0...)
+                    let rawVal = 1 + (pct * 4);
+                    const snappedVal = Math.round(rawVal * 2) / 2;
+                    
+                    if (state.values[cat] !== snappedVal) {
+                        state.values[cat] = snappedVal;
+                        
+                        // Calculate visual pct for snapped value
+                        const snappedPct = (snappedVal - 1) / 4;
+                        fill.style.width = `${snappedPct * 100}%`;
+                        thumb.style.left = `${snappedPct * 100}%`;
+                        hideResult();
+                    }
+                };
+
+                let isDragging = false;
+                track.addEventListener('mousedown', (e) => {
+                    isDragging = true;
+                    updateSlider(e.clientX);
+                });
+                window.addEventListener('mousemove', (e) => {
+                    if (isDragging) updateSlider(e.clientX);
+                });
+                window.addEventListener('mouseup', () => {
+                    isDragging = false;
+                });
+
+                // Init visual state
+                const initPct = (state.values[cat] - 1) / 4;
+                fill.style.width = `${initPct * 100}%`;
+                thumb.style.left = `${initPct * 100}%`;
+            });
+
+            const btn = document.getElementById('reveal-btn');
+            
+            const startHold = () => {
+                if (state.isHolding) return;
+                if (audio.ctx && audio.ctx.state === 'suspended') audio.ctx.resume();
+                state.isHolding = true;
+                btn.classList.add('held');
+                playHeld();
+            };
+
+            const endHold = () => {
+                if (!state.isHolding) return;
+                state.isHolding = false;
+                btn.classList.remove('held');
+                stopHeld();
+                playReveal();
+                revealMatch();
+            };
+
+            btn.addEventListener('mousedown', startHold);
+            btn.addEventListener('touchstart', (e) => { e.preventDefault(); startHold(); });
+            window.addEventListener('mouseup', endHold);
+            window.addEventListener('touchend', endHold);
+
+            window.addEventListener('keydown', (e) => {
+                if (e.code === 'Space') {
+                    e.preventDefault();
+                    startHold();
+                }
+            });
+            window.addEventListener('keyup', (e) => {
+                if (e.code === 'Space') {
+                    endHold();
+                }
+            });
+        }
+
+        function hideResult() {
+            document.getElementById('result-container').classList.remove('active');
+        }
+
+        function setSliderValue(cat, val) {
+            state.values[cat] = val;
+            const group = document.querySelector(`.slider-group[data-cat="${cat}"]`);
+            const pct = (val - 1) / 4;
+            group.querySelector('.crema-slider-fill').style.width = `${pct * 100}%`;
+            group.querySelector('.crema-slider-thumb').style.left = `${pct * 100}%`;
+        }
+
+        function revealMatch() {
+            let bestMatch = null;
+            let minDistance = Infinity;
+
+            for (const [id, m] of Object.entries(state.mustelids)) {
+                let distSq = 0;
+                for (const cat in state.values) {
+                    distSq += Math.pow(state.values[cat] - (m.scores[cat] || 3.0), 2);
+                }
+                const dist = Math.sqrt(distSq);
+                if (dist < minDistance) {
+                    minDistance = dist;
+                    bestMatch = { ...m, id };
+                }
+            }
+
+            if (bestMatch) {
+                const cached = imgCache[bestMatch.id];
+                const finalImg = cached || bestMatch.image;
+                
+                document.getElementById('result-img').src = finalImg;
+                document.getElementById('result-name').textContent = bestMatch.name;
+                document.getElementById('result-sci').textContent = bestMatch.scientific_name;
+                
+                // New Info
+                document.getElementById('result-weight').textContent = bestMatch.weight || "Unknown";
+                document.getElementById('result-lifespan').textContent = bestMatch.lifespan || "Unknown";
+                document.getElementById('result-habitat').textContent = bestMatch.habitat || "Various";
+                document.getElementById('result-description').textContent = bestMatch.description || "No description available.";
+                
+                const funFactEl = document.getElementById('result-fun-fact');
+                if (bestMatch.fun_fact) {
+                    funFactEl.textContent = bestMatch.fun_fact;
+                    funFactEl.style.display = 'block';
+                } else {
+                    funFactEl.style.display = 'none';
+                }
+
+                document.getElementById('result-container').classList.add('active');
+
+                // Zoom Logic
+                const zoomTrigger = document.getElementById('zoom-trigger');
+                const zoomOverlay = document.getElementById('zoom-overlay');
+                const zoomImg = document.getElementById('zoom-img');
+
+                zoomTrigger.onclick = () => {
+                    zoomImg.src = finalImg;
+                    zoomOverlay.classList.add('active');
+                };
+
+                zoomOverlay.onclick = () => {
+                    zoomOverlay.classList.remove('active');
+                };
+            }
+        }
+
+        document.getElementById('random-btn').addEventListener('click', () => {
+            const snap = v => Math.round(v * 2) / 2;
+            Object.keys(state.values).forEach(cat => setSliderValue(cat, snap(1 + Math.random() * 4)));
+            hideResult();
+        });
+
+        init();
+    </script>
+</body>
+</html>

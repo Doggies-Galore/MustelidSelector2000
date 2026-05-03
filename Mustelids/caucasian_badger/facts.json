@@ -1,0 +1,18 @@
+{
+  "common_name": "Caucasian badger",
+  "scientific_name": "Meles canescens",
+  "subfamily": "Melinae",
+  "genus": "Meles",
+  "description": "The Caucasian badger, also known as the Southwest Asian badger, is a species of badger native to Western Asia and some islands in the Mediterranean Sea.",
+  "fun_fact": "They were only officially recognized as a distinct species from the European badger in 2013 following genetic studies.",
+  "weight": "7\u201317 kg",
+  "lifespan": "15 years",
+  "wiki_url": "https://en.wikipedia.org/wiki/Caucasian_badger",
+  "image_url": "./assets/photo.webp",
+  "habitat": "Montane Meadows & Steppes",
+  "noodle": 1.43,
+  "size": 4.42,
+  "biome": 2.17,
+  "sillay": 1.37,
+  "snoot": 1.8
+}

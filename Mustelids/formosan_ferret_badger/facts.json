@@ -1,0 +1,18 @@
+{
+  "common_name": "Formosan ferret-badger",
+  "scientific_name": "Melogale subaurantiaca",
+  "subfamily": "Helictidinae",
+  "genus": "Melogale",
+  "description": "The Formosan ferret-badger is a species of mustelid endemic to the island of Taiwan. It is nocturnal and omnivorous, feeding on insects, earthworms, and fruit.",
+  "fun_fact": "Once considered a subspecies of the Chinese ferret-badger, they were reclassified as a distinct species in 2019 following a genetic study.",
+  "weight": "< 2 kg",
+  "lifespan": "< 10 years",
+  "wiki_url": "https://en.wikipedia.org/wiki/Formosan_ferret-badger",
+  "image_url": "./assets/photo.webp",
+  "habitat": "Tropical & Subtropical Forests",
+  "noodle": 3.65,
+  "size": 3.25,
+  "biome": 3.46,
+  "sillay": 1.68,
+  "snoot": 4.38
+}

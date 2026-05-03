@@ -1,0 +1,18 @@
+{
+  "common_name": "American badger",
+  "scientific_name": "Taxidea taxus",
+  "subfamily": "Taxidiinae",
+  "genus": "Taxidea",
+  "description": "The American badger is a North American badger, somewhat similar in appearance to the European badger, although not closely related. It is found in the western and central United States, northern Mexico, and south-central Canada to certain areas of southwestern British Columbia.",
+  "fun_fact": "They occasionally hunt in short-term alliances with coyotes, where the badger digs prey out of burrows while the coyote catches any that escape to the surface.",
+  "weight": "4\u201312 kg",
+  "lifespan": "4\u201310 years",
+  "wiki_url": "https://en.wikipedia.org/wiki/American_badger",
+  "image_url": "./assets/photo.webp",
+  "habitat": "Woodlands & Open Fields",
+  "noodle": 1.86,
+  "size": 4.15,
+  "biome": 2.23,
+  "sillay": 2.11,
+  "snoot": 4.69
+}

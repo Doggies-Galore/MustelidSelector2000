@@ -1,0 +1,18 @@
+{
+  "common_name": "Back-striped weasel",
+  "scientific_name": "Mustela strigidorsa",
+  "subfamily": "Mustelinae",
+  "genus": "Mustela",
+  "description": "The back-striped weasel, also known as the stripe-backed weasel, is a species of mustelid found in Southeast Asia.",
+  "fun_fact": "They are characterized by a narrow, silvery stripe running down the entire length of their back, which is mirrored by a yellowish streak on their belly.",
+  "weight": "0.7\u20132.0 kg",
+  "lifespan": "4\u20137 years",
+  "wiki_url": "https://en.wikipedia.org/wiki/Back-striped_weasel",
+  "image_url": "./assets/photo.webp",
+  "habitat": "Hedgerows & Grassland",
+  "noodle": 4.38,
+  "size": 3.0,
+  "biome": 3.77,
+  "sillay": 4.51,
+  "snoot": 4.14
+}

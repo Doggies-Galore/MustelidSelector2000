@@ -1,0 +1,18 @@
+{
+  "common_name": "African striped weasel",
+  "scientific_name": "Poecilogale albinucha",
+  "subfamily": "Ictonychinae",
+  "genus": "Poecilogale",
+  "description": "The African striped weasel, also known as the white-naped weasel, is a small, burrowing mustelid native to sub-Saharan Africa.",
+  "fun_fact": "They obtain almost all the water they need directly from the prey they consume and rarely drink standing water.",
+  "weight": "0.23\u20130.38 kg",
+  "lifespan": "5\u20136 years",
+  "wiki_url": "https://en.wikipedia.org/wiki/African_striped_weasel",
+  "image_url": "./assets/photo.webp",
+  "habitat": "Hedgerows & Grassland",
+  "noodle": 4.14,
+  "size": 2.03,
+  "biome": 2.42,
+  "sillay": 1.74,
+  "snoot": 3.52
+}

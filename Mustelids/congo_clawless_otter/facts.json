@@ -1,0 +1,18 @@
+{
+  "common_name": "Congo clawless otter",
+  "scientific_name": "Aonyx congicus",
+  "subfamily": "Lutrinae",
+  "genus": "Aonyx",
+  "description": "The Congo clawless otter is a species of otter in the family Mustelidae. It is found in Cameroon, Congo, Democratic Republic of the Congo, Equatorial Guinea, and Gabon.",
+  "fun_fact": "They are considered the most terrestrial of all otter species and spend a significant amount of time exploring shores and land compared to their relatives.",
+  "weight": "10\u201325 kg",
+  "lifespan": "10\u201315 years",
+  "wiki_url": "https://en.wikipedia.org/wiki/Congo_clawless_otter",
+  "image_url": "./assets/photo.webp",
+  "habitat": "Freshwater Rivers & Wetlands",
+  "noodle": 1.55,
+  "size": 4.66,
+  "biome": 4.26,
+  "sillay": 1.43,
+  "snoot": 3.65
+}

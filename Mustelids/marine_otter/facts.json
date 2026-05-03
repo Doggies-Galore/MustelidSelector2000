@@ -1,0 +1,18 @@
+{
+  "common_name": "Marine otter",
+  "scientific_name": "Lontra felina",
+  "subfamily": "Lutrinae",
+  "genus": "Lontra",
+  "description": "The marine otter is a rare and relatively unknown South American mammal of the weasel family. It is found along the Pacific coast of South America.",
+  "fun_fact": "Locally known as the 'chungungo', they are one of the few otter species adapted to live in marine environments along the Pacific coast of South America.",
+  "weight": "3\u20136 kg",
+  "lifespan": "10\u201315 years",
+  "wiki_url": "https://en.wikipedia.org/wiki/Marine_otter",
+  "image_url": "./assets/photo.webp",
+  "habitat": "Coastal Marine",
+  "noodle": 3.4,
+  "size": 3.78,
+  "biome": 5.0,
+  "sillay": 1.8,
+  "snoot": 1.37
+}

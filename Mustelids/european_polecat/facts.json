@@ -1,0 +1,18 @@
+{
+  "common_name": "European polecat",
+  "scientific_name": "Mustela putorius",
+  "subfamily": "Mustelinae",
+  "genus": "Mustela",
+  "description": "The European polecat, also known as the common forest polecat, is a species of mustelid native to western Eurasia and North Africa.",
+  "fun_fact": "They are the wild ancestors of the domestic ferret and were once nicknamed 'chicken-cats' due to their habit of raiding poultry coops.",
+  "weight": "0.4\u20131.7 kg",
+  "lifespan": "5\u20136 years",
+  "wiki_url": "https://en.wikipedia.org/wiki/European_polecat",
+  "image_url": "./assets/photo.webp",
+  "habitat": "Dry Scrub & Farmland",
+  "noodle": 2.72,
+  "size": 2.83,
+  "biome": 2.11,
+  "sillay": 3.28,
+  "snoot": 2.42
+}

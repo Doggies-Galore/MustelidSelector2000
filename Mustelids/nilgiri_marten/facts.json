@@ -1,0 +1,18 @@
+{
+  "common_name": "Nilgiri marten",
+  "scientific_name": "Martes gwatkinsii",
+  "subfamily": "Guloninae",
+  "genus": "Martes",
+  "description": "The Nilgiri marten is the only species of marten found in southern India. It is found in the hills of the Nilgiris and parts of the Western Ghats.",
+  "fun_fact": "They are the only species of marten found in India and are endemic exclusively to the Western Ghats mountain range.",
+  "weight": "2.1 kg",
+  "lifespan": "12\u201315 years",
+  "wiki_url": "https://en.wikipedia.org/wiki/Nilgiri_marten",
+  "image_url": "./assets/photo.webp",
+  "habitat": "Moist Shola Rainforests",
+  "noodle": 2.66,
+  "size": 3.28,
+  "biome": 3.71,
+  "sillay": 1.98,
+  "snoot": 2.35
+}

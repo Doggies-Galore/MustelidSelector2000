@@ -1,0 +1,18 @@
+{
+  "common_name": "American mink",
+  "scientific_name": "Neogale vison",
+  "subfamily": "Mustelinae",
+  "genus": "Neogale",
+  "description": "The American mink is a semiaquatic species of mustelid native to North America. It has been introduced to many other parts of the world.",
+  "fun_fact": "When they are happy or content, minks have been known to make a soft purring sound similar to a domestic cat.",
+  "weight": "0.7\u20132.0 kg",
+  "lifespan": "3\u20135 years",
+  "wiki_url": "https://en.wikipedia.org/wiki/American_mink",
+  "image_url": "./assets/photo.webp",
+  "habitat": "Wetlands & Riverbanks",
+  "noodle": 4.2,
+  "size": 3.0,
+  "biome": 4.75,
+  "sillay": 5.0,
+  "snoot": 1.86
+}

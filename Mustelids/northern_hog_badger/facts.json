@@ -1,0 +1,18 @@
+{
+  "common_name": "Northern hog badger",
+  "scientific_name": "Arctonyx albogularis",
+  "subfamily": "Melinae",
+  "genus": "Arctonyx",
+  "description": "The northern hog badger is a mustelid species native to South and East Asia. It was formerly considered a subspecies of the greater hog badger.",
+  "fun_fact": "They have a highly sensitive, pig-like snout that they use to root through soil for earthworms and insects.",
+  "weight": "7\u201314 kg",
+  "lifespan": "14 years (captivity)",
+  "wiki_url": "https://en.wikipedia.org/wiki/Northern_hog_badger",
+  "image_url": "./assets/photo.webp",
+  "habitat": "Temperate Forests & Grasslands",
+  "noodle": 1.8,
+  "size": 4.33,
+  "biome": 2.05,
+  "sillay": 1.92,
+  "snoot": 4.88
+}

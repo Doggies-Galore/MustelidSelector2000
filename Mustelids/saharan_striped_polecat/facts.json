@@ -1,0 +1,18 @@
+{
+  "common_name": "Saharan striped polecat",
+  "scientific_name": "Ictonyx libycus",
+  "subfamily": "Ictonychinae",
+  "genus": "Ictonyx",
+  "description": "The Saharan striped polecat, also known as the Saharan striped weasel, is a species of mustelid found in North Africa and parts of the Sahel region.",
+  "fun_fact": "They have fur on the undersides of their paws, which is an adaptation to help them walk and hunt in sandy desert environments.",
+  "weight": "0.24\u20130.8 kg",
+  "lifespan": "5\u20136 years",
+  "wiki_url": "https://en.wikipedia.org/wiki/Saharan_striped_polecat",
+  "image_url": "./assets/photo.webp",
+  "habitat": "Dry Scrub & Farmland",
+  "noodle": 2.54,
+  "size": 2.38,
+  "biome": 1.55,
+  "sillay": 2.97,
+  "snoot": 4.26
+}

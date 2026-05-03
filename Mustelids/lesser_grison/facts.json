@@ -1,0 +1,18 @@
+{
+  "common_name": "Lesser grison",
+  "scientific_name": "Galictis cuja",
+  "subfamily": "Ictonychinae",
+  "genus": "Galictis",
+  "description": "The lesser grison is a species of mustelid found in South America. It is a small, slender animal with a long neck and short legs.",
+  "fun_fact": "They have a habit of traveling in small family groups that move together in a single-file line through the undergrowth.",
+  "weight": "1\u20132.5 kg",
+  "lifespan": "10+ years (captivity)",
+  "wiki_url": "https://en.wikipedia.org/wiki/Lesser_grison",
+  "image_url": "./assets/photo.webp",
+  "habitat": "Tropical Forests & Steppe",
+  "noodle": 2.78,
+  "size": 3.16,
+  "biome": 4.14,
+  "sillay": 1.86,
+  "snoot": 3.03
+}

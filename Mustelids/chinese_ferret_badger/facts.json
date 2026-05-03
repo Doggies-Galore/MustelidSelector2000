@@ -1,0 +1,18 @@
+{
+  "common_name": "Chinese ferret-badger",
+  "scientific_name": "Melogale moschata",
+  "subfamily": "Helictidinae",
+  "genus": "Melogale",
+  "description": "The Chinese ferret-badger, also known as the small-toothed ferret-badger, is a small mustelid widely distributed in Southeast Asia and southern China. It is known for its distinctive facial mask and agile climbing abilities.",
+  "fun_fact": "They are agile climbers that often sleep in tree branches and are encouraged by farmers to stay near agricultural areas to control pests.",
+  "weight": "1\u20133 kg",
+  "lifespan": "< 10 years",
+  "wiki_url": "https://en.wikipedia.org/wiki/Chinese_ferret-badger",
+  "image_url": "./assets/photo.webp",
+  "habitat": "Tropical & Subtropical Forests",
+  "noodle": 3.09,
+  "size": 3.25,
+  "biome": 3.34,
+  "sillay": 3.52,
+  "snoot": 4.45
+}

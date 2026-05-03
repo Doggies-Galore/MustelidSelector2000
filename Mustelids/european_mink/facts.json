@@ -1,0 +1,18 @@
+{
+  "common_name": "European mink",
+  "scientific_name": "Mustela lutreola",
+  "subfamily": "Mustelinae",
+  "genus": "Mustela",
+  "description": "The European mink is a semiaquatic species of mustelid native to Europe. It is one of the most endangered mammals in the world.",
+  "fun_fact": "Unlike the American mink, they have a distinctive white upper lip that forms a small mask around their mouth.",
+  "weight": "0.5\u20130.9 kg",
+  "lifespan": "6\u201310 years",
+  "wiki_url": "https://en.wikipedia.org/wiki/European_mink",
+  "image_url": "./assets/photo.webp",
+  "habitat": "Wetlands & Riverbanks",
+  "noodle": 3.46,
+  "size": 2.57,
+  "biome": 4.38,
+  "sillay": 2.91,
+  "snoot": 3.89
+}

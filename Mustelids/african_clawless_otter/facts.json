@@ -1,0 +1,18 @@
+{
+  "common_name": "African clawless otter",
+  "scientific_name": "Aonyx capensis",
+  "subfamily": "Lutrinae",
+  "genus": "Aonyx",
+  "description": "The African clawless otter, also known as the Cape clawless otter, is the second-largest freshwater species of otter. It is found in much of sub-Saharan Africa.",
+  "fun_fact": "They are the second-largest freshwater otter and have incredibly dexterous front paws that are almost entirely clawless and unwebbed, allowing them to feel for prey in the mud.",
+  "weight": "12\u201321 kg",
+  "lifespan": "10\u201312 years",
+  "wiki_url": "https://en.wikipedia.org/wiki/African_clawless_otter",
+  "image_url": "./assets/photo.webp",
+  "habitat": "Freshwater Rivers & Wetlands",
+  "noodle": 1.68,
+  "size": 4.62,
+  "biome": 4.45,
+  "sillay": 2.72,
+  "snoot": 1.74
+}

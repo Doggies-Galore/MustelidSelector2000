@@ -1,0 +1,18 @@
+{
+  "common_name": "Asian small-clawed otter",
+  "scientific_name": "Aonyx cinereus",
+  "subfamily": "Lutrinae",
+  "genus": "Aonyx",
+  "description": "The Asian small-clawed otter, also known as the oriental small-clawed otter, is the smallest otter species in the world, native to South and Southeast Asia.",
+  "fun_fact": "They are the smallest of all 13 otter species and form monogamous pairs that often stay together for life, with both parents helping to raise the pups.",
+  "weight": "1\u20135.5 kg",
+  "lifespan": "10\u201316 years",
+  "wiki_url": "https://en.wikipedia.org/wiki/Asian_small-clawed_otter",
+  "image_url": "./assets/photo.webp",
+  "habitat": "Mangrove Swamps & Rice Paddies",
+  "noodle": 1.92,
+  "size": 3.57,
+  "biome": 3.95,
+  "sillay": 3.09,
+  "snoot": 1.62
+}

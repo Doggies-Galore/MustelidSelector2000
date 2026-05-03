@@ -1,0 +1,18 @@
+{
+  "common_name": "Hairy-nosed otter",
+  "scientific_name": "Lutra sumatrana",
+  "subfamily": "Lutrinae",
+  "genus": "Lutra",
+  "description": "The hairy-nosed otter is an otter species native to Southeast Asia. It is one of the rarest and least-known otter species.",
+  "fun_fact": "They are one of the world's rarest otters and are named for their nose pad, which is completely covered in short velvety hair, unlike the naked noses of most other otters.",
+  "weight": "5\u20138 kg",
+  "lifespan": "10\u201312 years",
+  "wiki_url": "https://en.wikipedia.org/wiki/Hairy-nosed_otter",
+  "image_url": "./assets/photo.webp",
+  "habitat": "Southeast Asian Swamp Forests",
+  "noodle": 3.15,
+  "size": 4.02,
+  "biome": 4.08,
+  "sillay": 2.54,
+  "snoot": 1.0
+}

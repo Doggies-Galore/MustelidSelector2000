@@ -1,0 +1,18 @@
+{
+  "common_name": "Giant otter",
+  "scientific_name": "Pteronura brasiliensis",
+  "subfamily": "Lutrinae",
+  "genus": "Pteronura",
+  "description": "The giant otter is a South American carnivorous mammal. It is the longest member of the mustelid family.",
+  "fun_fact": "Known as the 'river wolf', they are the noisiest otter species and have unique cream-colored throat patches that act like fingerprints for identification.",
+  "weight": "22\u201334 kg",
+  "lifespan": "8\u201313 years",
+  "wiki_url": "https://en.wikipedia.org/wiki/Giant_otter",
+  "image_url": "./assets/photo.webp",
+  "habitat": "Slow-moving Amazonian Rivers",
+  "noodle": 1.06,
+  "size": 4.97,
+  "biome": 4.63,
+  "sillay": 1.31,
+  "snoot": 1.98
+}
